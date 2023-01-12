@@ -1,0 +1,1647 @@
+2023-01-12 17:09:59,497 :: root :: INFO :: DCS Liberation 6.1.0-preview
+2023-01-12 17:09:59,498 :: root :: DEBUG :: Python version 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]
+2023-01-12 17:09:59,558 :: uvicorn.error :: INFO :: Started server process [2072]
+2023-01-12 17:09:59,559 :: uvicorn.error :: INFO :: Waiting for application startup.
+2023-01-12 17:09:59,560 :: uvicorn.error :: INFO :: Application startup complete.
+2023-01-12 17:09:59,561 :: uvicorn.error :: INFO :: Uvicorn running on http://[::1]:16880 (Press CTRL+C to quit)
+2023-01-12 17:09:59,802 :: root :: INFO :: Loading stylesheet: style-dcs.css
+2023-01-12 17:09:59,803 :: root :: DEBUG :: Loading Liberation preferences from C:\Users\usuario\AppData\Local\DCSLiberation\liberation_preferences.json
+2023-01-12 17:09:59,804 :: root :: INFO :: Using S:/Saved Games/DCS.openbeta as 'Saved Game Folder'
+2023-01-12 17:09:59,804 :: root :: INFO :: Using S:/DCS World OpenBeta as 'DCS installation folder'
+2023-01-12 17:10:02,742 :: root :: INFO :: Loading last saved game : S:/Saved Games/DCS.openbeta/Liberation/Saves/testing AI.liberation
+2023-01-12 17:10:02,744 :: root :: ERROR :: Invalid Save game
+Traceback (most recent call last):
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\persistency.py", line 49, in load_game
+    save = pickle.load(f)
+AttributeError: Can't get attribute 'NightMissions' on <module 'game.settings.settings' from 'F:\\DCS_Liberation\\dcs_liberation-6.1.0\\game\\settings\\settings.py'>
+2023-01-12 17:10:02,745 :: root :: INFO :: On Game generated
+2023-01-12 17:10:27,201 :: root :: WARNING :: Mi-24V does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,203 :: root :: WARNING :: Mi-8MT does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,205 :: root :: WARNING :: Mi-26 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,206 :: root :: WARNING :: No data for Ka-27; it will not be available
+2023-01-12 17:10:27,207 :: root :: WARNING :: UH-60A does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,209 :: root :: WARNING :: CH-53E does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,210 :: root :: WARNING :: CH-47D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,211 :: root :: WARNING :: No data for SH-3W; it will not be available
+2023-01-12 17:10:27,214 :: root :: WARNING :: AH-64A does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,218 :: root :: WARNING :: AH-64D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,221 :: root :: WARNING :: AH-1W does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,226 :: root :: WARNING :: SH-60B does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,230 :: root :: WARNING :: UH-1H does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,232 :: root :: WARNING :: Mi-28N does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,235 :: root :: WARNING :: OH-58D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,241 :: root :: WARNING :: AH-64D_BLK_II does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,244 :: root :: WARNING :: Ka-50 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,247 :: root :: WARNING :: Ka-50_3 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,250 :: root :: WARNING :: Mi-24P does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,253 :: root :: WARNING :: SA342M does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,255 :: root :: WARNING :: SA342L does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,258 :: root :: WARNING :: SA342Mistral does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,260 :: root :: WARNING :: SA342Minigun does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,264 :: root :: WARNING :: UH-60L does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:10:27,266 :: root :: WARNING :: Tornado GR4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,267 :: root :: WARNING :: Tornado IDS does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,268 :: root :: WARNING :: No data for F/A-18A; it will not be available
+2023-01-12 17:10:27,268 :: root :: WARNING :: No data for F/A-18C; it will not be available
+2023-01-12 17:10:27,268 :: root :: WARNING :: No data for F-14A; it will not be available
+2023-01-12 17:10:27,270 :: root :: WARNING :: Tu-22M3 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,278 :: root :: WARNING :: MiG-27K does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,282 :: root :: WARNING :: MiG-23MLD does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,285 :: root :: WARNING :: No data for Su-25TM; it will not be available
+2023-01-12 17:10:27,310 :: root :: WARNING :: Tu-95MS does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,317 :: root :: WARNING :: F-117A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,321 :: root :: WARNING :: S-3B does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,342 :: root :: WARNING :: Tu-142 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,345 :: root :: WARNING :: An-30M does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,352 :: root :: WARNING :: No data for F-16C bl.50; it will not be available
+2023-01-12 17:10:27,352 :: root :: WARNING :: No data for F-16C bl.52d; it will not be available
+2023-01-12 17:10:27,354 :: root :: WARNING :: No data for F-16A MLU; it will not be available
+2023-01-12 17:10:27,355 :: root :: WARNING :: RQ-1A Predator does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,361 :: root :: WARNING :: FW-190D9 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,365 :: root :: WARNING :: FW-190A8 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,367 :: root :: WARNING :: Bf-109K-4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,372 :: root :: WARNING :: SpitfireLFMkIX does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,376 :: root :: WARNING :: SpitfireLFMkIXCW does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,381 :: root :: WARNING :: P-51D does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,384 :: root :: WARNING :: P-51D-30-NA does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,388 :: root :: WARNING :: P-47D-30 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,391 :: root :: WARNING :: P-47D-30bl1 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,397 :: root :: WARNING :: P-47D-40 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,399 :: root :: WARNING :: MosquitoFBMkVI does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,401 :: root :: WARNING :: A-20G does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,405 :: root :: WARNING :: A-10A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,410 :: root :: WARNING :: A-10C does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,414 :: root :: WARNING :: A-10C_2 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,418 :: root :: WARNING :: AJS37 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,430 :: root :: WARNING :: No data for C-101EB; it will not be available
+2023-01-12 17:10:27,433 :: root :: WARNING :: C-101CC does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,436 :: root :: WARNING :: J-11A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,444 :: root :: WARNING :: JF-17 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,446 :: root :: WARNING :: WingLoong-I does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,449 :: root :: WARNING :: No data for Christen Eagle II; it will not be available
+2023-01-12 17:10:27,456 :: root :: WARNING :: No data for F-5E; it will not be available
+2023-01-12 17:10:27,464 :: root :: WARNING :: F-86F Sabre does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,482 :: root :: WARNING :: FA-18C_hornet does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,482 :: root :: WARNING :: No data for Hawk; it will not be available
+2023-01-12 17:10:27,485 :: root :: WARNING :: I-16 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,486 :: root :: WARNING :: No data for L-39C; it will not be available
+2023-01-12 17:10:27,488 :: root :: WARNING :: L-39ZA does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,497 :: root :: WARNING :: No data for MB-339APAN; it will not be available
+2023-01-12 17:10:27,498 :: root :: WARNING :: MQ-9 Reaper does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,501 :: root :: WARNING :: MiG-15bis does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,507 :: root :: WARNING :: MiG-19P does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,513 :: root :: WARNING :: No data for Mirage-F1C; it will not be available
+2023-01-12 17:10:27,524 :: root :: WARNING :: No data for Mirage-F1EH; it will not be available
+2023-01-12 17:10:27,524 :: root :: WARNING :: No data for Mirage-F1CH; it will not be available
+2023-01-12 17:10:27,525 :: root :: WARNING :: No data for Mirage-F1JA; it will not be available
+2023-01-12 17:10:27,525 :: root :: WARNING :: No data for Mirage-F1CG; it will not be available
+2023-01-12 17:10:27,526 :: root :: WARNING :: No data for Mirage-F1CZ; it will not be available
+2023-01-12 17:10:27,526 :: root :: WARNING :: No data for Mirage-F1CJ; it will not be available
+2023-01-12 17:10:27,527 :: root :: WARNING :: No data for Mirage-F1CK; it will not be available
+2023-01-12 17:10:27,530 :: root :: WARNING :: No data for Mirage-F1ED; it will not be available
+2023-01-12 17:10:27,531 :: root :: WARNING :: No data for Mirage-F1EDA; it will not be available
+2023-01-12 17:10:27,531 :: root :: WARNING :: No data for Mirage-F1CR; it will not be available
+2023-01-12 17:10:27,538 :: root :: WARNING :: No data for Mirage-F1BQ; it will not be available
+2023-01-12 17:10:27,539 :: root :: WARNING :: No data for Mirage-F1BD; it will not be available
+2023-01-12 17:10:27,539 :: root :: WARNING :: No data for Mirage-F1DDA; it will not be available
+2023-01-12 17:10:27,544 :: root :: WARNING :: No data for Yak-52; it will not be available
+2023-01-12 17:10:27,548 :: root :: WARNING :: B-17G does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,553 :: root :: WARNING :: Ju-88A4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,553 :: root :: WARNING :: No data for C-47; it will not be available
+2023-01-12 17:10:27,554 :: root :: WARNING :: No data for TF-51D; it will not be available
+2023-01-12 17:10:27,556 :: root :: WARNING :: A-4E-C does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,557 :: root :: WARNING :: No data for VSN_F104C; it will not be available
+2023-01-12 17:10:27,567 :: root :: WARNING :: F-22A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,570 :: root :: WARNING :: JAS39Gripen does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,573 :: root :: WARNING :: JAS39Gripen_AG does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,576 :: root :: WARNING :: Bronco-OV-10A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:27,578 :: root :: WARNING :: Su-57 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:10:28,542 :: root :: INFO :: Reading plugins list from resources\plugins\plugins.json
+2023-01-12 17:10:28,542 :: root :: INFO :: Loading plugin base from resources\plugins\base\plugin.json
+2023-01-12 17:10:28,543 :: root :: INFO :: Loading plugin ctld from resources\plugins\ctld\plugin.json
+2023-01-12 17:10:28,544 :: root :: INFO :: Loading plugin skynetiads from resources\plugins\skynetiads\plugin.json
+2023-01-12 17:10:28,544 :: root :: INFO :: Loading plugin ewrs from resources\plugins\ewrs\plugin.json
+2023-01-12 17:10:28,545 :: root :: INFO :: Loading plugin herculescargo from resources\plugins\herculescargo\plugin.json
+2023-01-12 17:10:28,545 :: root :: INFO :: Loading plugin splashdamage from resources\plugins\splashdamage\plugin.json
+2023-01-12 17:10:28,545 :: root :: INFO :: Loading plugin lotatc from resources\plugins\lotatc\plugin.json
+2023-01-12 17:10:28,597 :: root :: WARNING :: No data for Bunker; it will not be available
+2023-01-12 17:10:28,600 :: root :: WARNING :: No data for Sandbox; it will not be available
+2023-01-12 17:10:28,605 :: root :: WARNING :: No data for MLRS FDDM; it will not be available
+2023-01-12 17:10:28,606 :: root :: WARNING :: No data for Infantry AK ver2; it will not be available
+2023-01-12 17:10:28,606 :: root :: WARNING :: No data for Infantry AK ver3; it will not be available
+2023-01-12 17:10:28,626 :: root :: WARNING :: Patriot AMG has no class
+2023-01-12 17:10:28,670 :: root :: WARNING :: No data for house1arm; it will not be available
+2023-01-12 17:10:28,671 :: root :: WARNING :: No data for outpost_road; it will not be available
+2023-01-12 17:10:28,671 :: root :: WARNING :: No data for outpost; it will not be available
+2023-01-12 17:10:28,672 :: root :: WARNING :: No data for houseA_arm; it will not be available
+2023-01-12 17:10:28,672 :: root :: WARNING :: No data for TACAN_beacon; it will not be available
+2023-01-12 17:10:28,695 :: root :: WARNING :: No data for Ural-4320 APA-5D; it will not be available
+2023-01-12 17:10:28,696 :: root :: WARNING :: No data for ATMZ-5; it will not be available
+2023-01-12 17:10:28,696 :: root :: WARNING :: No data for ATZ-10; it will not be available
+2023-01-12 17:10:28,698 :: root :: WARNING :: No data for M978 HEMTT Tanker; it will not be available
+2023-01-12 17:10:28,699 :: root :: WARNING :: No data for HEMTT TFFT; it will not be available
+2023-01-12 17:10:28,699 :: root :: WARNING :: No data for IKARUS Bus; it will not be available
+2023-01-12 17:10:28,700 :: root :: WARNING :: No data for LAZ Bus; it will not be available
+2023-01-12 17:10:28,700 :: root :: WARNING :: No data for LiAZ Bus; it will not be available
+2023-01-12 17:10:28,701 :: root :: WARNING :: No data for Hummer; it will not be available
+2023-01-12 17:10:28,702 :: root :: WARNING :: No data for MAZ-6303; it will not be available
+2023-01-12 17:10:28,702 :: root :: WARNING :: No data for Predator GCS; it will not be available
+2023-01-12 17:10:28,703 :: root :: WARNING :: No data for Predator TrojanSpirit; it will not be available
+2023-01-12 17:10:28,703 :: root :: WARNING :: No data for Suidae; it will not be available
+2023-01-12 17:10:28,704 :: root :: WARNING :: No data for Tigr_233036; it will not be available
+2023-01-12 17:10:28,704 :: root :: WARNING :: No data for Trolley bus; it will not be available
+2023-01-12 17:10:28,705 :: root :: WARNING :: No data for Ural ATsP-6; it will not be available
+2023-01-12 17:10:28,707 :: root :: WARNING :: Ural-4320-31 has no class
+2023-01-12 17:10:28,708 :: root :: WARNING :: Ural-4320T has no class
+2023-01-12 17:10:28,709 :: root :: WARNING :: No data for Ural-375 PBU; it will not be available
+2023-01-12 17:10:28,710 :: root :: WARNING :: No data for VAZ Car; it will not be available
+2023-01-12 17:10:28,710 :: root :: WARNING :: No data for ZiL-131 APA-80; it will not be available
+2023-01-12 17:10:28,711 :: root :: WARNING :: No data for SKP-11; it will not be available
+2023-01-12 17:10:28,711 :: root :: WARNING :: No data for ZIL-131 KUNG; it will not be available
+2023-01-12 17:10:28,711 :: root :: WARNING :: No data for ZIL-4331; it will not be available
+2023-01-12 17:10:28,712 :: root :: WARNING :: No data for KrAZ6322; it will not be available
+2023-01-12 17:10:28,712 :: root :: WARNING :: No data for JTAC; it will not be available
+2023-01-12 17:10:28,712 :: root :: WARNING :: No data for Infantry Animated; it will not be available
+2023-01-12 17:10:28,713 :: root :: WARNING :: No data for Electric locomotive; it will not be available
+2023-01-12 17:10:28,713 :: root :: WARNING :: No data for Locomotive; it will not be available
+2023-01-12 17:10:28,713 :: root :: WARNING :: No data for Coach cargo; it will not be available
+2023-01-12 17:10:28,714 :: root :: WARNING :: No data for Coach cargo open; it will not be available
+2023-01-12 17:10:28,714 :: root :: WARNING :: No data for Coach a tank blue; it will not be available
+2023-01-12 17:10:28,714 :: root :: WARNING :: No data for Coach a tank yellow; it will not be available
+2023-01-12 17:10:28,714 :: root :: WARNING :: No data for Coach a passenger; it will not be available
+2023-01-12 17:10:28,715 :: root :: WARNING :: No data for Coach a platform; it will not be available
+2023-01-12 17:10:28,715 :: root :: WARNING :: No data for tacr2a; it will not be available
+2023-01-12 17:10:28,715 :: root :: WARNING :: No data for LARC-V; it will not be available
+2023-01-12 17:10:28,716 :: root :: WARNING :: No data for KS-19; it will not be available
+2023-01-12 17:10:28,716 :: root :: WARNING :: No data for SON_9; it will not be available
+2023-01-12 17:10:28,735 :: root :: WARNING :: No data for FPS-117 ECS; it will not be available
+2023-01-12 17:10:28,737 :: root :: WARNING :: No data for RD_75; it will not be available
+2023-01-12 17:10:28,745 :: root :: WARNING :: No data for generator_5i57; it will not be available
+2023-01-12 17:10:28,750 :: root :: WARNING :: No data for ATZ-5; it will not be available
+2023-01-12 17:10:28,751 :: root :: WARNING :: No data for AA8; it will not be available
+2023-01-12 17:10:28,751 :: root :: WARNING :: No data for TZ-22_KrAZ; it will not be available
+2023-01-12 17:10:28,752 :: root :: WARNING :: No data for ATZ-60_Maz; it will not be available
+2023-01-12 17:10:28,752 :: root :: WARNING :: No data for ZIL-135; it will not be available
+2023-01-12 17:10:28,753 :: root :: WARNING :: No data for S_75_ZIL; it will not be available
+2023-01-12 17:10:28,764 :: root :: WARNING :: No data for ES44AH; it will not be available
+2023-01-12 17:10:28,765 :: root :: WARNING :: No data for Boxcartrinity; it will not be available
+2023-01-12 17:10:28,765 :: root :: WARNING :: No data for Tankcartrinity; it will not be available
+2023-01-12 17:10:28,765 :: root :: WARNING :: No data for Wellcarnsc; it will not be available
+2023-01-12 17:10:28,789 :: root :: WARNING :: No data for HQ-7_LN_EO; it will not be available
+2023-01-12 17:10:28,795 :: root :: WARNING :: No data for TYPE-59; it will not be available
+2023-01-12 17:10:28,797 :: root :: WARNING :: Sd_Kfz_2 has no class
+2023-01-12 17:10:28,798 :: root :: WARNING :: No data for Horch_901_typ_40_kfz_21; it will not be available
+2023-01-12 17:10:28,813 :: root :: WARNING :: No data for Wespe124; it will not be available
+2023-01-12 17:10:28,828 :: root :: WARNING :: No data for fire_control; it will not be available
+2023-01-12 17:10:28,836 :: root :: WARNING :: No data for FuSe-65; it will not be available
+2023-01-12 17:10:28,836 :: root :: WARNING :: No data for Pak40; it will not be available
+2023-01-12 17:10:28,836 :: root :: WARNING :: No data for LeFH_18-40-105; it will not be available
+2023-01-12 17:10:28,850 :: root :: WARNING :: No data for Allies_Director; it will not be available
+2023-01-12 17:10:28,863 :: root :: WARNING :: No data for M2A1-105; it will not be available
+2023-01-12 17:10:28,868 :: root :: WARNING :: No data for DR_50Ton_Flat_Wagon; it will not be available
+2023-01-12 17:10:28,869 :: root :: WARNING :: No data for DRG_Class_86; it will not be available
+2023-01-12 17:10:28,869 :: root :: WARNING :: No data for German_covered_wagon_G10; it will not be available
+2023-01-12 17:10:28,869 :: root :: WARNING :: No data for German_tank_wagon; it will not be available
+2023-01-12 17:10:28,875 :: root :: WARNING :: VAB_50 has no class
+2023-01-12 17:10:28,876 :: root :: WARNING :: VIB_VBR has no class
+2023-01-12 17:10:28,881 :: root :: WARNING :: VBAE has no class
+2023-01-12 17:10:28,882 :: root :: WARNING :: VBAE_MMP has no class
+2023-01-12 17:10:28,884 :: root :: WARNING :: No data for SHERIDAN; it will not be available
+2023-01-12 17:10:28,888 :: root :: WARNING :: Kamikaze has no class
+2023-01-12 17:10:28,889 :: root :: WARNING :: No data for FieldHL; it will not be available
+2023-01-12 17:10:28,889 :: root :: WARNING :: No data for HARRIERH; it will not be available
+2023-01-12 17:10:28,890 :: root :: WARNING :: No data for SmokeD1; it will not be available
+2023-01-12 17:10:28,890 :: root :: WARNING :: No data for SmokeD3; it will not be available
+2023-01-12 17:10:28,890 :: root :: WARNING :: TRM2000 has no class
+2023-01-12 17:10:28,891 :: root :: WARNING :: TRM2000_Citerne has no class
+2023-01-12 17:10:28,894 :: root :: WARNING :: VABH has no class
+2023-01-12 17:10:28,895 :: root :: WARNING :: VAB_RADIO has no class
+2023-01-12 17:10:28,896 :: root :: WARNING :: VBL-Radio has no class
+2023-01-12 17:10:28,897 :: root :: WARNING :: Tracma has no class
+2023-01-12 17:10:28,898 :: root :: WARNING :: No data for SMOKESAM; it will not be available
+2023-01-12 17:10:28,900 :: root :: WARNING :: No data for Leclerc_XXI_Desert; it will not be available
+2023-01-12 17:10:28,907 :: root :: WARNING :: No data for T62; it will not be available
+2023-01-12 17:10:28,907 :: root :: WARNING :: No data for T64BV; it will not be available
+2023-01-12 17:10:28,908 :: root :: WARNING :: No data for T72M; it will not be available
+2023-01-12 17:10:28,908 :: root :: WARNING :: No data for KORNET; it will not be available
+2023-01-12 17:10:28,910 :: root :: WARNING :: M120 has no class
+2023-01-12 17:10:28,911 :: root :: WARNING :: VAB_MORTIER has no class
+2023-01-12 17:10:28,949 :: root :: WARNING :: No data for 34Ya6E Gazetchik E decoy; it will not be available
+2023-01-12 17:10:28,950 :: root :: WARNING :: No data for speedboat; it will not be available
+2023-01-12 17:10:28,950 :: root :: WARNING :: No data for VINSON; it will not be available
+2023-01-12 17:10:28,958 :: root :: WARNING :: No data for PIOTR; it will not be available
+2023-01-12 17:10:28,960 :: root :: WARNING :: No data for ELNYA; it will not be available
+2023-01-12 17:10:28,961 :: root :: WARNING :: No data for Dry-cargo ship-2; it will not be available
+2023-01-12 17:10:28,962 :: root :: WARNING :: No data for Dry-cargo ship-1; it will not be available
+2023-01-12 17:10:28,962 :: root :: WARNING :: No data for ZWEZDNY; it will not be available
+2023-01-12 17:10:28,964 :: root :: WARNING :: No data for IMPROVED_KILO; it will not be available
+2023-01-12 17:10:28,964 :: root :: WARNING :: No data for SOM; it will not be available
+2023-01-12 17:10:28,965 :: root :: WARNING :: No data for CV_1143_5; it will not be available
+2023-01-12 17:10:28,966 :: root :: WARNING :: No data for HarborTug; it will not be available
+2023-01-12 17:10:28,970 :: root :: WARNING :: No data for leander-gun-condell; it will not be available
+2023-01-12 17:10:28,970 :: root :: WARNING :: No data for leander-gun-lynch; it will not be available
+2023-01-12 17:10:28,971 :: root :: WARNING :: No data for Ship_Tilde_Supply; it will not be available
+2023-01-12 17:10:28,971 :: root :: WARNING :: No data for santafe; it will not be available
+2023-01-12 17:10:28,971 :: root :: WARNING :: No data for HandyWind; it will not be available
+2023-01-12 17:10:28,971 :: root :: WARNING :: No data for Seawise_Giant; it will not be available
+2023-01-12 17:10:28,973 :: root :: WARNING :: No data for CVN_71; it will not be available
+2023-01-12 17:10:28,974 :: root :: WARNING :: No data for CVN_72; it will not be available
+2023-01-12 17:10:28,974 :: root :: WARNING :: No data for CVN_73; it will not be available
+2023-01-12 17:10:28,975 :: root :: WARNING :: No data for CVN_75; it will not be available
+2023-01-12 17:10:28,980 :: root :: WARNING :: No data for Type_093; it will not be available
+2023-01-12 17:10:28,983 :: root :: WARNING :: No data for Higgins_boat; it will not be available
+2023-01-12 17:10:35,748 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:10:35,759 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:10:35,760 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:10:35,764 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:10:35,765 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:10:35,771 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:10:35,774 :: root :: INFO :: Generating flight: Su-25T Frogfoot
+2023-01-12 17:10:35,783 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:10:35,790 :: root :: INFO :: Generating flight: E-3A
+2023-01-12 17:10:35,793 :: root :: INFO :: Generating flight: MiG-29S Fulcrum-C
+2023-01-12 17:10:35,808 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:10:35,810 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:10:35,813 :: root :: INFO :: Generating flight: A-50
+2023-01-12 17:10:35,816 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:10:35,816 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:10:35,817 :: root :: INFO :: Generating flight: IL-78M
+2023-01-12 17:10:35,819 :: root :: ERROR :: Uncaught exception
+Traceback (most recent call last):
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\qt_ui\widgets\QTopPanel.py", line 288, in launch_mission
+    self.sim_controller.generate_miz(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\qt_ui\simcontroller.py", line 76, in generate_miz
+    self.game_loop.pause_and_generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\sim\gameloop.py", line 67, in pause_and_generate_miz
+    self.sim.generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\sim\missionsimulation.py", line 51, in generate_miz
+    self.unit_map = MissionGenerator(self.game, self.time).generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\missiongenerator.py", line 107, in generate_miz
+    self.generate_air_units(tgo_generator)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\missiongenerator.py", line 255, in generate_air_units
+    aircraft_generator.generate_flights(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\aircraftgenerator.py", line 110, in generate_flights
+    group = self.create_and_configure_flight(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\aircraftgenerator.py", line 181, in create_and_configure_flight
+    ).configure()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\flightgroupconfigurator.py", line 105, in configure
+    ).create_waypoints()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\waypointgenerator.py", line 115, in create_waypoints
+    self.builder_for_waypoint(point).build()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\pydcswaypointbuilder.py", line 65, in build
+    self.add_tasks(waypoint)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\recoverytanker.py", line 13, in add_tasks
+    group_id = self._get_carrier_group_id()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\recoverytanker.py", line 36, in _get_carrier_group_id
+    assert theater_mapping is not None
+UnboundLocalError: local variable 'theater_mapping' referenced before assignment
+2023-01-12 17:14:12,457 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:14:12,463 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:14:12,464 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:14:12,467 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:14:12,468 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:14:12,470 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:14:12,471 :: root :: INFO :: Generating flight: Su-25T Frogfoot
+2023-01-12 17:14:12,474 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:14:12,476 :: root :: INFO :: Generating flight: E-3A
+2023-01-12 17:14:12,477 :: root :: INFO :: Generating flight: MiG-29S Fulcrum-C
+2023-01-12 17:14:12,480 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:14:12,482 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:14:12,485 :: root :: INFO :: Generating flight: A-50
+2023-01-12 17:14:12,486 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:14:12,486 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:14:12,487 :: root :: INFO :: Generating flight: IL-78M
+2023-01-12 17:14:12,488 :: root :: ERROR :: Uncaught exception
+Traceback (most recent call last):
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\qt_ui\widgets\QTopPanel.py", line 288, in launch_mission
+    self.sim_controller.generate_miz(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\qt_ui\simcontroller.py", line 76, in generate_miz
+    self.game_loop.pause_and_generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\sim\gameloop.py", line 67, in pause_and_generate_miz
+    self.sim.generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\sim\missionsimulation.py", line 51, in generate_miz
+    self.unit_map = MissionGenerator(self.game, self.time).generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\missiongenerator.py", line 107, in generate_miz
+    self.generate_air_units(tgo_generator)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\missiongenerator.py", line 255, in generate_air_units
+    aircraft_generator.generate_flights(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\aircraftgenerator.py", line 110, in generate_flights
+    group = self.create_and_configure_flight(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\aircraftgenerator.py", line 181, in create_and_configure_flight
+    ).configure()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\flightgroupconfigurator.py", line 105, in configure
+    ).create_waypoints()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\waypointgenerator.py", line 115, in create_waypoints
+    self.builder_for_waypoint(point).build()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\pydcswaypointbuilder.py", line 65, in build
+    self.add_tasks(waypoint)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\recoverytanker.py", line 13, in add_tasks
+    group_id = self._get_carrier_group_id()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\recoverytanker.py", line 36, in _get_carrier_group_id
+    "Arco": "ARC",
+UnboundLocalError: local variable 'theater_mapping' referenced before assignment
+2023-01-12 17:14:15,926 :: root :: INFO :: QT App terminated with status code : 0
+2023-01-12 17:14:15,931 :: root :: INFO :: Attempt to restore original mission scripting file
+2023-01-12 17:14:15,933 :: root :: INFO :: QT process exited with code : 0
+2023-01-12 17:14:16,030 :: uvicorn.error :: INFO :: Shutting down
+2023-01-12 17:14:16,136 :: uvicorn.error :: INFO :: Waiting for application shutdown.
+2023-01-12 17:14:16,137 :: uvicorn.error :: INFO :: Application shutdown complete.
+2023-01-12 17:14:16,138 :: uvicorn.error :: INFO :: Finished server process [2072]
+2023-01-12 17:14:24,681 :: root :: INFO :: DCS Liberation 6.1.0-preview
+2023-01-12 17:14:24,682 :: root :: DEBUG :: Python version 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]
+2023-01-12 17:14:24,726 :: uvicorn.error :: INFO :: Started server process [5796]
+2023-01-12 17:14:24,726 :: uvicorn.error :: INFO :: Waiting for application startup.
+2023-01-12 17:14:24,728 :: uvicorn.error :: INFO :: Application startup complete.
+2023-01-12 17:14:24,732 :: uvicorn.error :: INFO :: Uvicorn running on http://[::1]:16880 (Press CTRL+C to quit)
+2023-01-12 17:14:24,955 :: root :: INFO :: Loading stylesheet: style-dcs.css
+2023-01-12 17:14:24,956 :: root :: DEBUG :: Loading Liberation preferences from C:\Users\usuario\AppData\Local\DCSLiberation\liberation_preferences.json
+2023-01-12 17:14:24,957 :: root :: INFO :: Using S:/Saved Games/DCS.openbeta as 'Saved Game Folder'
+2023-01-12 17:14:24,958 :: root :: INFO :: Using S:/DCS World OpenBeta as 'DCS installation folder'
+2023-01-12 17:14:27,919 :: root :: INFO :: Loading last saved game : S:/Saved Games/DCS.openbeta/Liberation/Saves/testing AI.liberation
+2023-01-12 17:14:27,920 :: root :: ERROR :: Invalid Save game
+Traceback (most recent call last):
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\persistency.py", line 49, in load_game
+    save = pickle.load(f)
+AttributeError: Can't get attribute 'NightMissions' on <module 'game.settings.settings' from 'F:\\DCS_Liberation\\dcs_liberation-6.1.0\\game\\settings\\settings.py'>
+2023-01-12 17:14:27,921 :: root :: INFO :: On Game generated
+2023-01-12 17:14:33,811 :: root :: WARNING :: Mi-24V does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,814 :: root :: WARNING :: Mi-8MT does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,815 :: root :: WARNING :: Mi-26 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,816 :: root :: WARNING :: No data for Ka-27; it will not be available
+2023-01-12 17:14:33,817 :: root :: WARNING :: UH-60A does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,819 :: root :: WARNING :: CH-53E does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,820 :: root :: WARNING :: CH-47D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,821 :: root :: WARNING :: No data for SH-3W; it will not be available
+2023-01-12 17:14:33,826 :: root :: WARNING :: AH-64A does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,830 :: root :: WARNING :: AH-64D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,833 :: root :: WARNING :: AH-1W does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,836 :: root :: WARNING :: SH-60B does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,838 :: root :: WARNING :: UH-1H does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,841 :: root :: WARNING :: Mi-28N does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,843 :: root :: WARNING :: OH-58D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,847 :: root :: WARNING :: AH-64D_BLK_II does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,850 :: root :: WARNING :: Ka-50 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,854 :: root :: WARNING :: Ka-50_3 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,860 :: root :: WARNING :: Mi-24P does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,863 :: root :: WARNING :: SA342M does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,866 :: root :: WARNING :: SA342L does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,868 :: root :: WARNING :: SA342Mistral does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,870 :: root :: WARNING :: SA342Minigun does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,871 :: root :: WARNING :: UH-60L does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:14:33,874 :: root :: WARNING :: Tornado GR4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,875 :: root :: WARNING :: Tornado IDS does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,876 :: root :: WARNING :: No data for F/A-18A; it will not be available
+2023-01-12 17:14:33,876 :: root :: WARNING :: No data for F/A-18C; it will not be available
+2023-01-12 17:14:33,876 :: root :: WARNING :: No data for F-14A; it will not be available
+2023-01-12 17:14:33,878 :: root :: WARNING :: Tu-22M3 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,884 :: root :: WARNING :: MiG-27K does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,889 :: root :: WARNING :: MiG-23MLD does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,896 :: root :: WARNING :: No data for Su-25TM; it will not be available
+2023-01-12 17:14:33,925 :: root :: WARNING :: Tu-95MS does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,937 :: root :: WARNING :: F-117A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,944 :: root :: WARNING :: S-3B does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,967 :: root :: WARNING :: Tu-142 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,970 :: root :: WARNING :: An-30M does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,977 :: root :: WARNING :: No data for F-16C bl.50; it will not be available
+2023-01-12 17:14:33,978 :: root :: WARNING :: No data for F-16C bl.52d; it will not be available
+2023-01-12 17:14:33,979 :: root :: WARNING :: No data for F-16A MLU; it will not be available
+2023-01-12 17:14:33,980 :: root :: WARNING :: RQ-1A Predator does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,985 :: root :: WARNING :: FW-190D9 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,988 :: root :: WARNING :: FW-190A8 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,992 :: root :: WARNING :: Bf-109K-4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:33,998 :: root :: WARNING :: SpitfireLFMkIX does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,002 :: root :: WARNING :: SpitfireLFMkIXCW does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,008 :: root :: WARNING :: P-51D does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,011 :: root :: WARNING :: P-51D-30-NA does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,014 :: root :: WARNING :: P-47D-30 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,018 :: root :: WARNING :: P-47D-30bl1 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,021 :: root :: WARNING :: P-47D-40 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,025 :: root :: WARNING :: MosquitoFBMkVI does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,029 :: root :: WARNING :: A-20G does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,033 :: root :: WARNING :: A-10A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,036 :: root :: WARNING :: A-10C does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,039 :: root :: WARNING :: A-10C_2 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,044 :: root :: WARNING :: AJS37 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,051 :: root :: WARNING :: No data for C-101EB; it will not be available
+2023-01-12 17:14:34,052 :: root :: WARNING :: C-101CC does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,054 :: root :: WARNING :: J-11A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,061 :: root :: WARNING :: JF-17 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,064 :: root :: WARNING :: WingLoong-I does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,066 :: root :: WARNING :: No data for Christen Eagle II; it will not be available
+2023-01-12 17:14:34,070 :: root :: WARNING :: No data for F-5E; it will not be available
+2023-01-12 17:14:34,076 :: root :: WARNING :: F-86F Sabre does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,095 :: root :: WARNING :: FA-18C_hornet does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,096 :: root :: WARNING :: No data for Hawk; it will not be available
+2023-01-12 17:14:34,098 :: root :: WARNING :: I-16 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,099 :: root :: WARNING :: No data for L-39C; it will not be available
+2023-01-12 17:14:34,101 :: root :: WARNING :: L-39ZA does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,107 :: root :: WARNING :: No data for MB-339APAN; it will not be available
+2023-01-12 17:14:34,108 :: root :: WARNING :: MQ-9 Reaper does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,111 :: root :: WARNING :: MiG-15bis does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,115 :: root :: WARNING :: MiG-19P does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,118 :: root :: WARNING :: No data for Mirage-F1C; it will not be available
+2023-01-12 17:14:34,131 :: root :: WARNING :: No data for Mirage-F1EH; it will not be available
+2023-01-12 17:14:34,132 :: root :: WARNING :: No data for Mirage-F1CH; it will not be available
+2023-01-12 17:14:34,132 :: root :: WARNING :: No data for Mirage-F1JA; it will not be available
+2023-01-12 17:14:34,132 :: root :: WARNING :: No data for Mirage-F1CG; it will not be available
+2023-01-12 17:14:34,133 :: root :: WARNING :: No data for Mirage-F1CZ; it will not be available
+2023-01-12 17:14:34,133 :: root :: WARNING :: No data for Mirage-F1CJ; it will not be available
+2023-01-12 17:14:34,134 :: root :: WARNING :: No data for Mirage-F1CK; it will not be available
+2023-01-12 17:14:34,136 :: root :: WARNING :: No data for Mirage-F1ED; it will not be available
+2023-01-12 17:14:34,136 :: root :: WARNING :: No data for Mirage-F1EDA; it will not be available
+2023-01-12 17:14:34,137 :: root :: WARNING :: No data for Mirage-F1CR; it will not be available
+2023-01-12 17:14:34,145 :: root :: WARNING :: No data for Mirage-F1BQ; it will not be available
+2023-01-12 17:14:34,146 :: root :: WARNING :: No data for Mirage-F1BD; it will not be available
+2023-01-12 17:14:34,146 :: root :: WARNING :: No data for Mirage-F1DDA; it will not be available
+2023-01-12 17:14:34,148 :: root :: WARNING :: No data for Yak-52; it will not be available
+2023-01-12 17:14:34,151 :: root :: WARNING :: B-17G does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,154 :: root :: WARNING :: Ju-88A4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,154 :: root :: WARNING :: No data for C-47; it will not be available
+2023-01-12 17:14:34,155 :: root :: WARNING :: No data for TF-51D; it will not be available
+2023-01-12 17:14:34,159 :: root :: WARNING :: A-4E-C does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,160 :: root :: WARNING :: No data for VSN_F104C; it will not be available
+2023-01-12 17:14:34,169 :: root :: WARNING :: F-22A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,175 :: root :: WARNING :: JAS39Gripen does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,178 :: root :: WARNING :: JAS39Gripen_AG does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,180 :: root :: WARNING :: Bronco-OV-10A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:34,182 :: root :: WARNING :: Su-57 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:14:35,312 :: root :: INFO :: Reading plugins list from resources\plugins\plugins.json
+2023-01-12 17:14:35,312 :: root :: INFO :: Loading plugin base from resources\plugins\base\plugin.json
+2023-01-12 17:14:35,313 :: root :: INFO :: Loading plugin ctld from resources\plugins\ctld\plugin.json
+2023-01-12 17:14:35,314 :: root :: INFO :: Loading plugin skynetiads from resources\plugins\skynetiads\plugin.json
+2023-01-12 17:14:35,314 :: root :: INFO :: Loading plugin ewrs from resources\plugins\ewrs\plugin.json
+2023-01-12 17:14:35,315 :: root :: INFO :: Loading plugin herculescargo from resources\plugins\herculescargo\plugin.json
+2023-01-12 17:14:35,315 :: root :: INFO :: Loading plugin splashdamage from resources\plugins\splashdamage\plugin.json
+2023-01-12 17:14:35,316 :: root :: INFO :: Loading plugin lotatc from resources\plugins\lotatc\plugin.json
+2023-01-12 17:14:35,375 :: root :: WARNING :: No data for Bunker; it will not be available
+2023-01-12 17:14:35,377 :: root :: WARNING :: No data for Sandbox; it will not be available
+2023-01-12 17:14:35,381 :: root :: WARNING :: No data for MLRS FDDM; it will not be available
+2023-01-12 17:14:35,382 :: root :: WARNING :: No data for Infantry AK ver2; it will not be available
+2023-01-12 17:14:35,382 :: root :: WARNING :: No data for Infantry AK ver3; it will not be available
+2023-01-12 17:14:35,407 :: root :: WARNING :: Patriot AMG has no class
+2023-01-12 17:14:35,448 :: root :: WARNING :: No data for house1arm; it will not be available
+2023-01-12 17:14:35,449 :: root :: WARNING :: No data for outpost_road; it will not be available
+2023-01-12 17:14:35,449 :: root :: WARNING :: No data for outpost; it will not be available
+2023-01-12 17:14:35,450 :: root :: WARNING :: No data for houseA_arm; it will not be available
+2023-01-12 17:14:35,450 :: root :: WARNING :: No data for TACAN_beacon; it will not be available
+2023-01-12 17:14:35,476 :: root :: WARNING :: No data for Ural-4320 APA-5D; it will not be available
+2023-01-12 17:14:35,476 :: root :: WARNING :: No data for ATMZ-5; it will not be available
+2023-01-12 17:14:35,476 :: root :: WARNING :: No data for ATZ-10; it will not be available
+2023-01-12 17:14:35,479 :: root :: WARNING :: No data for M978 HEMTT Tanker; it will not be available
+2023-01-12 17:14:35,479 :: root :: WARNING :: No data for HEMTT TFFT; it will not be available
+2023-01-12 17:14:35,479 :: root :: WARNING :: No data for IKARUS Bus; it will not be available
+2023-01-12 17:14:35,480 :: root :: WARNING :: No data for LAZ Bus; it will not be available
+2023-01-12 17:14:35,481 :: root :: WARNING :: No data for LiAZ Bus; it will not be available
+2023-01-12 17:14:35,481 :: root :: WARNING :: No data for Hummer; it will not be available
+2023-01-12 17:14:35,482 :: root :: WARNING :: No data for MAZ-6303; it will not be available
+2023-01-12 17:14:35,482 :: root :: WARNING :: No data for Predator GCS; it will not be available
+2023-01-12 17:14:35,483 :: root :: WARNING :: No data for Predator TrojanSpirit; it will not be available
+2023-01-12 17:14:35,483 :: root :: WARNING :: No data for Suidae; it will not be available
+2023-01-12 17:14:35,484 :: root :: WARNING :: No data for Tigr_233036; it will not be available
+2023-01-12 17:14:35,484 :: root :: WARNING :: No data for Trolley bus; it will not be available
+2023-01-12 17:14:35,485 :: root :: WARNING :: No data for Ural ATsP-6; it will not be available
+2023-01-12 17:14:35,486 :: root :: WARNING :: Ural-4320-31 has no class
+2023-01-12 17:14:35,487 :: root :: WARNING :: Ural-4320T has no class
+2023-01-12 17:14:35,487 :: root :: WARNING :: No data for Ural-375 PBU; it will not be available
+2023-01-12 17:14:35,489 :: root :: WARNING :: No data for VAZ Car; it will not be available
+2023-01-12 17:14:35,491 :: root :: WARNING :: No data for ZiL-131 APA-80; it will not be available
+2023-01-12 17:14:35,491 :: root :: WARNING :: No data for SKP-11; it will not be available
+2023-01-12 17:14:35,492 :: root :: WARNING :: No data for ZIL-131 KUNG; it will not be available
+2023-01-12 17:14:35,493 :: root :: WARNING :: No data for ZIL-4331; it will not be available
+2023-01-12 17:14:35,494 :: root :: WARNING :: No data for KrAZ6322; it will not be available
+2023-01-12 17:14:35,494 :: root :: WARNING :: No data for JTAC; it will not be available
+2023-01-12 17:14:35,495 :: root :: WARNING :: No data for Infantry Animated; it will not be available
+2023-01-12 17:14:35,495 :: root :: WARNING :: No data for Electric locomotive; it will not be available
+2023-01-12 17:14:35,495 :: root :: WARNING :: No data for Locomotive; it will not be available
+2023-01-12 17:14:35,496 :: root :: WARNING :: No data for Coach cargo; it will not be available
+2023-01-12 17:14:35,496 :: root :: WARNING :: No data for Coach cargo open; it will not be available
+2023-01-12 17:14:35,496 :: root :: WARNING :: No data for Coach a tank blue; it will not be available
+2023-01-12 17:14:35,496 :: root :: WARNING :: No data for Coach a tank yellow; it will not be available
+2023-01-12 17:14:35,497 :: root :: WARNING :: No data for Coach a passenger; it will not be available
+2023-01-12 17:14:35,497 :: root :: WARNING :: No data for Coach a platform; it will not be available
+2023-01-12 17:14:35,497 :: root :: WARNING :: No data for tacr2a; it will not be available
+2023-01-12 17:14:35,497 :: root :: WARNING :: No data for LARC-V; it will not be available
+2023-01-12 17:14:35,498 :: root :: WARNING :: No data for KS-19; it will not be available
+2023-01-12 17:14:35,498 :: root :: WARNING :: No data for SON_9; it will not be available
+2023-01-12 17:14:35,515 :: root :: WARNING :: No data for FPS-117 ECS; it will not be available
+2023-01-12 17:14:35,518 :: root :: WARNING :: No data for RD_75; it will not be available
+2023-01-12 17:14:35,531 :: root :: WARNING :: No data for generator_5i57; it will not be available
+2023-01-12 17:14:35,538 :: root :: WARNING :: No data for ATZ-5; it will not be available
+2023-01-12 17:14:35,539 :: root :: WARNING :: No data for AA8; it will not be available
+2023-01-12 17:14:35,540 :: root :: WARNING :: No data for TZ-22_KrAZ; it will not be available
+2023-01-12 17:14:35,541 :: root :: WARNING :: No data for ATZ-60_Maz; it will not be available
+2023-01-12 17:14:35,541 :: root :: WARNING :: No data for ZIL-135; it will not be available
+2023-01-12 17:14:35,541 :: root :: WARNING :: No data for S_75_ZIL; it will not be available
+2023-01-12 17:14:35,551 :: root :: WARNING :: No data for ES44AH; it will not be available
+2023-01-12 17:14:35,552 :: root :: WARNING :: No data for Boxcartrinity; it will not be available
+2023-01-12 17:14:35,552 :: root :: WARNING :: No data for Tankcartrinity; it will not be available
+2023-01-12 17:14:35,552 :: root :: WARNING :: No data for Wellcarnsc; it will not be available
+2023-01-12 17:14:35,601 :: root :: WARNING :: No data for HQ-7_LN_EO; it will not be available
+2023-01-12 17:14:35,606 :: root :: WARNING :: No data for TYPE-59; it will not be available
+2023-01-12 17:14:35,609 :: root :: WARNING :: Sd_Kfz_2 has no class
+2023-01-12 17:14:35,612 :: root :: WARNING :: No data for Horch_901_typ_40_kfz_21; it will not be available
+2023-01-12 17:14:35,648 :: root :: WARNING :: No data for Wespe124; it will not be available
+2023-01-12 17:14:35,681 :: root :: WARNING :: No data for fire_control; it will not be available
+2023-01-12 17:14:35,699 :: root :: WARNING :: No data for FuSe-65; it will not be available
+2023-01-12 17:14:35,700 :: root :: WARNING :: No data for Pak40; it will not be available
+2023-01-12 17:14:35,701 :: root :: WARNING :: No data for LeFH_18-40-105; it will not be available
+2023-01-12 17:14:35,735 :: root :: WARNING :: No data for Allies_Director; it will not be available
+2023-01-12 17:14:35,752 :: root :: WARNING :: No data for M2A1-105; it will not be available
+2023-01-12 17:14:35,766 :: root :: WARNING :: No data for DR_50Ton_Flat_Wagon; it will not be available
+2023-01-12 17:14:35,767 :: root :: WARNING :: No data for DRG_Class_86; it will not be available
+2023-01-12 17:14:35,767 :: root :: WARNING :: No data for German_covered_wagon_G10; it will not be available
+2023-01-12 17:14:35,769 :: root :: WARNING :: No data for German_tank_wagon; it will not be available
+2023-01-12 17:14:35,775 :: root :: WARNING :: VAB_50 has no class
+2023-01-12 17:14:35,776 :: root :: WARNING :: VIB_VBR has no class
+2023-01-12 17:14:35,782 :: root :: WARNING :: VBAE has no class
+2023-01-12 17:14:35,783 :: root :: WARNING :: VBAE_MMP has no class
+2023-01-12 17:14:35,787 :: root :: WARNING :: No data for SHERIDAN; it will not be available
+2023-01-12 17:14:35,797 :: root :: WARNING :: Kamikaze has no class
+2023-01-12 17:14:35,798 :: root :: WARNING :: No data for FieldHL; it will not be available
+2023-01-12 17:14:35,798 :: root :: WARNING :: No data for HARRIERH; it will not be available
+2023-01-12 17:14:35,798 :: root :: WARNING :: No data for SmokeD1; it will not be available
+2023-01-12 17:14:35,799 :: root :: WARNING :: No data for SmokeD3; it will not be available
+2023-01-12 17:14:35,800 :: root :: WARNING :: TRM2000 has no class
+2023-01-12 17:14:35,800 :: root :: WARNING :: TRM2000_Citerne has no class
+2023-01-12 17:14:35,801 :: root :: WARNING :: VABH has no class
+2023-01-12 17:14:35,802 :: root :: WARNING :: VAB_RADIO has no class
+2023-01-12 17:14:35,803 :: root :: WARNING :: VBL-Radio has no class
+2023-01-12 17:14:35,804 :: root :: WARNING :: Tracma has no class
+2023-01-12 17:14:35,805 :: root :: WARNING :: No data for SMOKESAM; it will not be available
+2023-01-12 17:14:35,809 :: root :: WARNING :: No data for Leclerc_XXI_Desert; it will not be available
+2023-01-12 17:14:35,814 :: root :: WARNING :: No data for T62; it will not be available
+2023-01-12 17:14:35,815 :: root :: WARNING :: No data for T64BV; it will not be available
+2023-01-12 17:14:35,815 :: root :: WARNING :: No data for T72M; it will not be available
+2023-01-12 17:14:35,815 :: root :: WARNING :: No data for KORNET; it will not be available
+2023-01-12 17:14:35,817 :: root :: WARNING :: M120 has no class
+2023-01-12 17:14:35,818 :: root :: WARNING :: VAB_MORTIER has no class
+2023-01-12 17:14:35,852 :: root :: WARNING :: No data for 34Ya6E Gazetchik E decoy; it will not be available
+2023-01-12 17:14:35,853 :: root :: WARNING :: No data for speedboat; it will not be available
+2023-01-12 17:14:35,853 :: root :: WARNING :: No data for VINSON; it will not be available
+2023-01-12 17:14:35,864 :: root :: WARNING :: No data for PIOTR; it will not be available
+2023-01-12 17:14:35,865 :: root :: WARNING :: No data for ELNYA; it will not be available
+2023-01-12 17:14:35,865 :: root :: WARNING :: No data for Dry-cargo ship-2; it will not be available
+2023-01-12 17:14:35,865 :: root :: WARNING :: No data for Dry-cargo ship-1; it will not be available
+2023-01-12 17:14:35,866 :: root :: WARNING :: No data for ZWEZDNY; it will not be available
+2023-01-12 17:14:35,867 :: root :: WARNING :: No data for IMPROVED_KILO; it will not be available
+2023-01-12 17:14:35,867 :: root :: WARNING :: No data for SOM; it will not be available
+2023-01-12 17:14:35,867 :: root :: WARNING :: No data for CV_1143_5; it will not be available
+2023-01-12 17:14:35,868 :: root :: WARNING :: No data for HarborTug; it will not be available
+2023-01-12 17:14:35,871 :: root :: WARNING :: No data for leander-gun-condell; it will not be available
+2023-01-12 17:14:35,872 :: root :: WARNING :: No data for leander-gun-lynch; it will not be available
+2023-01-12 17:14:35,872 :: root :: WARNING :: No data for Ship_Tilde_Supply; it will not be available
+2023-01-12 17:14:35,873 :: root :: WARNING :: No data for santafe; it will not be available
+2023-01-12 17:14:35,873 :: root :: WARNING :: No data for HandyWind; it will not be available
+2023-01-12 17:14:35,874 :: root :: WARNING :: No data for Seawise_Giant; it will not be available
+2023-01-12 17:14:35,875 :: root :: WARNING :: No data for CVN_71; it will not be available
+2023-01-12 17:14:35,875 :: root :: WARNING :: No data for CVN_72; it will not be available
+2023-01-12 17:14:35,875 :: root :: WARNING :: No data for CVN_73; it will not be available
+2023-01-12 17:14:35,876 :: root :: WARNING :: No data for CVN_75; it will not be available
+2023-01-12 17:14:35,880 :: root :: WARNING :: No data for Type_093; it will not be available
+2023-01-12 17:14:35,884 :: root :: WARNING :: No data for Higgins_boat; it will not be available
+2023-01-12 17:14:40,171 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:14:40,183 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:14:40,184 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:14:40,187 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:14:40,188 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:14:40,197 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:14:40,199 :: root :: INFO :: Generating flight: Su-25T Frogfoot
+2023-01-12 17:14:40,207 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:14:40,213 :: root :: INFO :: Generating flight: E-3A
+2023-01-12 17:14:40,216 :: root :: INFO :: Generating flight: MiG-29S Fulcrum-C
+2023-01-12 17:14:40,229 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:14:40,231 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:14:40,234 :: root :: INFO :: Generating flight: A-50
+2023-01-12 17:14:40,236 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:14:40,237 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:14:40,237 :: root :: INFO :: Generating flight: IL-78M
+2023-01-12 17:14:40,240 :: root :: ERROR :: Uncaught exception
+Traceback (most recent call last):
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\qt_ui\widgets\QTopPanel.py", line 288, in launch_mission
+    self.sim_controller.generate_miz(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\qt_ui\simcontroller.py", line 76, in generate_miz
+    self.game_loop.pause_and_generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\sim\gameloop.py", line 67, in pause_and_generate_miz
+    self.sim.generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\sim\missionsimulation.py", line 51, in generate_miz
+    self.unit_map = MissionGenerator(self.game, self.time).generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\missiongenerator.py", line 107, in generate_miz
+    self.generate_air_units(tgo_generator)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\missiongenerator.py", line 255, in generate_air_units
+    aircraft_generator.generate_flights(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\aircraftgenerator.py", line 110, in generate_flights
+    group = self.create_and_configure_flight(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\aircraftgenerator.py", line 181, in create_and_configure_flight
+    ).configure()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\flightgroupconfigurator.py", line 105, in configure
+    ).create_waypoints()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\waypointgenerator.py", line 115, in create_waypoints
+    self.builder_for_waypoint(point).build()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\pydcswaypointbuilder.py", line 65, in build
+    self.add_tasks(waypoint)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\recoverytanker.py", line 13, in add_tasks
+    group_id = self._get_carrier_group_id()
+AttributeError: 'RecoveryTankerBuilder' object has no attribute '_get_carrier_group_id'
+2023-01-12 17:16:45,483 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:16:45,487 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:16:45,488 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:16:45,494 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:16:45,496 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:16:45,499 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:16:45,501 :: root :: INFO :: Generating flight: Su-25T Frogfoot
+2023-01-12 17:16:45,504 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:16:45,506 :: root :: INFO :: Generating flight: E-3A
+2023-01-12 17:16:45,508 :: root :: INFO :: Generating flight: MiG-29S Fulcrum-C
+2023-01-12 17:16:45,511 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:16:45,513 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:16:45,516 :: root :: INFO :: Generating flight: A-50
+2023-01-12 17:16:45,518 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:16:45,518 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:16:45,519 :: root :: INFO :: Generating flight: IL-78M
+2023-01-12 17:16:45,520 :: root :: ERROR :: Uncaught exception
+Traceback (most recent call last):
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\qt_ui\widgets\QTopPanel.py", line 288, in launch_mission
+    self.sim_controller.generate_miz(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\qt_ui\simcontroller.py", line 76, in generate_miz
+    self.game_loop.pause_and_generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\sim\gameloop.py", line 67, in pause_and_generate_miz
+    self.sim.generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\sim\missionsimulation.py", line 51, in generate_miz
+    self.unit_map = MissionGenerator(self.game, self.time).generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\missiongenerator.py", line 107, in generate_miz
+    self.generate_air_units(tgo_generator)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\missiongenerator.py", line 255, in generate_air_units
+    aircraft_generator.generate_flights(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\aircraftgenerator.py", line 110, in generate_flights
+    group = self.create_and_configure_flight(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\aircraftgenerator.py", line 181, in create_and_configure_flight
+    ).configure()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\flightgroupconfigurator.py", line 105, in configure
+    ).create_waypoints()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\waypointgenerator.py", line 115, in create_waypoints
+    self.builder_for_waypoint(point).build()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\pydcswaypointbuilder.py", line 65, in build
+    self.add_tasks(waypoint)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\recoverytanker.py", line 13, in add_tasks
+    group_id = self._get_carrier_group_id()
+AttributeError: 'RecoveryTankerBuilder' object has no attribute '_get_carrier_group_id'
+2023-01-12 17:17:01,781 :: root :: INFO :: DCS Liberation 6.1.0-preview
+2023-01-12 17:17:01,781 :: root :: DEBUG :: Python version 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]
+2023-01-12 17:17:01,822 :: uvicorn.error :: INFO :: Started server process [7668]
+2023-01-12 17:17:01,822 :: uvicorn.error :: INFO :: Waiting for application startup.
+2023-01-12 17:17:01,823 :: uvicorn.error :: INFO :: Application startup complete.
+2023-01-12 17:17:01,825 :: uvicorn.error :: INFO :: Uvicorn running on http://[::1]:16880 (Press CTRL+C to quit)
+2023-01-12 17:17:02,046 :: root :: INFO :: Loading stylesheet: style-dcs.css
+2023-01-12 17:17:02,047 :: root :: DEBUG :: Loading Liberation preferences from C:\Users\usuario\AppData\Local\DCSLiberation\liberation_preferences.json
+2023-01-12 17:17:02,047 :: root :: INFO :: Using S:/Saved Games/DCS.openbeta as 'Saved Game Folder'
+2023-01-12 17:17:02,047 :: root :: INFO :: Using S:/DCS World OpenBeta as 'DCS installation folder'
+2023-01-12 17:17:05,788 :: root :: INFO :: Loading last saved game : S:/Saved Games/DCS.openbeta/Liberation/Saves/testing AI.liberation
+2023-01-12 17:17:05,790 :: root :: ERROR :: Invalid Save game
+Traceback (most recent call last):
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\persistency.py", line 49, in load_game
+    save = pickle.load(f)
+AttributeError: Can't get attribute 'NightMissions' on <module 'game.settings.settings' from 'F:\\DCS_Liberation\\dcs_liberation-6.1.0\\game\\settings\\settings.py'>
+2023-01-12 17:17:05,791 :: root :: INFO :: On Game generated
+2023-01-12 17:17:14,065 :: root :: WARNING :: Mi-24V does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,067 :: root :: WARNING :: Mi-8MT does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,068 :: root :: WARNING :: Mi-26 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,069 :: root :: WARNING :: No data for Ka-27; it will not be available
+2023-01-12 17:17:14,070 :: root :: WARNING :: UH-60A does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,072 :: root :: WARNING :: CH-53E does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,073 :: root :: WARNING :: CH-47D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,074 :: root :: WARNING :: No data for SH-3W; it will not be available
+2023-01-12 17:17:14,076 :: root :: WARNING :: AH-64A does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,079 :: root :: WARNING :: AH-64D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,082 :: root :: WARNING :: AH-1W does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,084 :: root :: WARNING :: SH-60B does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,087 :: root :: WARNING :: UH-1H does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,089 :: root :: WARNING :: Mi-28N does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,093 :: root :: WARNING :: OH-58D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,096 :: root :: WARNING :: AH-64D_BLK_II does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,099 :: root :: WARNING :: Ka-50 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,102 :: root :: WARNING :: Ka-50_3 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,105 :: root :: WARNING :: Mi-24P does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,108 :: root :: WARNING :: SA342M does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,110 :: root :: WARNING :: SA342L does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,113 :: root :: WARNING :: SA342Mistral does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,114 :: root :: WARNING :: SA342Minigun does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,117 :: root :: WARNING :: UH-60L does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:17:14,119 :: root :: WARNING :: Tornado GR4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,121 :: root :: WARNING :: Tornado IDS does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,121 :: root :: WARNING :: No data for F/A-18A; it will not be available
+2023-01-12 17:17:14,121 :: root :: WARNING :: No data for F/A-18C; it will not be available
+2023-01-12 17:17:14,122 :: root :: WARNING :: No data for F-14A; it will not be available
+2023-01-12 17:17:14,124 :: root :: WARNING :: Tu-22M3 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,130 :: root :: WARNING :: MiG-27K does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,134 :: root :: WARNING :: MiG-23MLD does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,136 :: root :: WARNING :: No data for Su-25TM; it will not be available
+2023-01-12 17:17:14,155 :: root :: WARNING :: Tu-95MS does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,163 :: root :: WARNING :: F-117A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,167 :: root :: WARNING :: S-3B does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,183 :: root :: WARNING :: Tu-142 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,186 :: root :: WARNING :: An-30M does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,192 :: root :: WARNING :: No data for F-16C bl.50; it will not be available
+2023-01-12 17:17:14,193 :: root :: WARNING :: No data for F-16C bl.52d; it will not be available
+2023-01-12 17:17:14,194 :: root :: WARNING :: No data for F-16A MLU; it will not be available
+2023-01-12 17:17:14,195 :: root :: WARNING :: RQ-1A Predator does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,199 :: root :: WARNING :: FW-190D9 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,204 :: root :: WARNING :: FW-190A8 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,206 :: root :: WARNING :: Bf-109K-4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,212 :: root :: WARNING :: SpitfireLFMkIX does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,216 :: root :: WARNING :: SpitfireLFMkIXCW does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,222 :: root :: WARNING :: P-51D does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,226 :: root :: WARNING :: P-51D-30-NA does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,230 :: root :: WARNING :: P-47D-30 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,233 :: root :: WARNING :: P-47D-30bl1 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,237 :: root :: WARNING :: P-47D-40 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,238 :: root :: WARNING :: MosquitoFBMkVI does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,241 :: root :: WARNING :: A-20G does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,243 :: root :: WARNING :: A-10A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,246 :: root :: WARNING :: A-10C does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,249 :: root :: WARNING :: A-10C_2 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,253 :: root :: WARNING :: AJS37 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,260 :: root :: WARNING :: No data for C-101EB; it will not be available
+2023-01-12 17:17:14,261 :: root :: WARNING :: C-101CC does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,263 :: root :: WARNING :: J-11A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,267 :: root :: WARNING :: JF-17 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,269 :: root :: WARNING :: WingLoong-I does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,271 :: root :: WARNING :: No data for Christen Eagle II; it will not be available
+2023-01-12 17:17:14,277 :: root :: WARNING :: No data for F-5E; it will not be available
+2023-01-12 17:17:14,282 :: root :: WARNING :: F-86F Sabre does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,298 :: root :: WARNING :: FA-18C_hornet does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,299 :: root :: WARNING :: No data for Hawk; it will not be available
+2023-01-12 17:17:14,301 :: root :: WARNING :: I-16 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,302 :: root :: WARNING :: No data for L-39C; it will not be available
+2023-01-12 17:17:14,305 :: root :: WARNING :: L-39ZA does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,311 :: root :: WARNING :: No data for MB-339APAN; it will not be available
+2023-01-12 17:17:14,312 :: root :: WARNING :: MQ-9 Reaper does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,315 :: root :: WARNING :: MiG-15bis does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,319 :: root :: WARNING :: MiG-19P does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,323 :: root :: WARNING :: No data for Mirage-F1C; it will not be available
+2023-01-12 17:17:14,336 :: root :: WARNING :: No data for Mirage-F1EH; it will not be available
+2023-01-12 17:17:14,336 :: root :: WARNING :: No data for Mirage-F1CH; it will not be available
+2023-01-12 17:17:14,336 :: root :: WARNING :: No data for Mirage-F1JA; it will not be available
+2023-01-12 17:17:14,337 :: root :: WARNING :: No data for Mirage-F1CG; it will not be available
+2023-01-12 17:17:14,337 :: root :: WARNING :: No data for Mirage-F1CZ; it will not be available
+2023-01-12 17:17:14,337 :: root :: WARNING :: No data for Mirage-F1CJ; it will not be available
+2023-01-12 17:17:14,337 :: root :: WARNING :: No data for Mirage-F1CK; it will not be available
+2023-01-12 17:17:14,340 :: root :: WARNING :: No data for Mirage-F1ED; it will not be available
+2023-01-12 17:17:14,340 :: root :: WARNING :: No data for Mirage-F1EDA; it will not be available
+2023-01-12 17:17:14,341 :: root :: WARNING :: No data for Mirage-F1CR; it will not be available
+2023-01-12 17:17:14,347 :: root :: WARNING :: No data for Mirage-F1BQ; it will not be available
+2023-01-12 17:17:14,347 :: root :: WARNING :: No data for Mirage-F1BD; it will not be available
+2023-01-12 17:17:14,347 :: root :: WARNING :: No data for Mirage-F1DDA; it will not be available
+2023-01-12 17:17:14,350 :: root :: WARNING :: No data for Yak-52; it will not be available
+2023-01-12 17:17:14,352 :: root :: WARNING :: B-17G does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,355 :: root :: WARNING :: Ju-88A4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,355 :: root :: WARNING :: No data for C-47; it will not be available
+2023-01-12 17:17:14,356 :: root :: WARNING :: No data for TF-51D; it will not be available
+2023-01-12 17:17:14,358 :: root :: WARNING :: A-4E-C does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,359 :: root :: WARNING :: No data for VSN_F104C; it will not be available
+2023-01-12 17:17:14,366 :: root :: WARNING :: F-22A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,370 :: root :: WARNING :: JAS39Gripen does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,373 :: root :: WARNING :: JAS39Gripen_AG does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,375 :: root :: WARNING :: Bronco-OV-10A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:14,377 :: root :: WARNING :: Su-57 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:17:15,195 :: root :: INFO :: Reading plugins list from resources\plugins\plugins.json
+2023-01-12 17:17:15,195 :: root :: INFO :: Loading plugin base from resources\plugins\base\plugin.json
+2023-01-12 17:17:15,196 :: root :: INFO :: Loading plugin ctld from resources\plugins\ctld\plugin.json
+2023-01-12 17:17:15,196 :: root :: INFO :: Loading plugin skynetiads from resources\plugins\skynetiads\plugin.json
+2023-01-12 17:17:15,197 :: root :: INFO :: Loading plugin ewrs from resources\plugins\ewrs\plugin.json
+2023-01-12 17:17:15,197 :: root :: INFO :: Loading plugin herculescargo from resources\plugins\herculescargo\plugin.json
+2023-01-12 17:17:15,198 :: root :: INFO :: Loading plugin splashdamage from resources\plugins\splashdamage\plugin.json
+2023-01-12 17:17:15,198 :: root :: INFO :: Loading plugin lotatc from resources\plugins\lotatc\plugin.json
+2023-01-12 17:17:15,241 :: root :: WARNING :: No data for Bunker; it will not be available
+2023-01-12 17:17:15,244 :: root :: WARNING :: No data for Sandbox; it will not be available
+2023-01-12 17:17:15,249 :: root :: WARNING :: No data for MLRS FDDM; it will not be available
+2023-01-12 17:17:15,249 :: root :: WARNING :: No data for Infantry AK ver2; it will not be available
+2023-01-12 17:17:15,249 :: root :: WARNING :: No data for Infantry AK ver3; it will not be available
+2023-01-12 17:17:15,269 :: root :: WARNING :: Patriot AMG has no class
+2023-01-12 17:17:15,305 :: root :: WARNING :: No data for house1arm; it will not be available
+2023-01-12 17:17:15,306 :: root :: WARNING :: No data for outpost_road; it will not be available
+2023-01-12 17:17:15,307 :: root :: WARNING :: No data for outpost; it will not be available
+2023-01-12 17:17:15,307 :: root :: WARNING :: No data for houseA_arm; it will not be available
+2023-01-12 17:17:15,308 :: root :: WARNING :: No data for TACAN_beacon; it will not be available
+2023-01-12 17:17:15,332 :: root :: WARNING :: No data for Ural-4320 APA-5D; it will not be available
+2023-01-12 17:17:15,332 :: root :: WARNING :: No data for ATMZ-5; it will not be available
+2023-01-12 17:17:15,333 :: root :: WARNING :: No data for ATZ-10; it will not be available
+2023-01-12 17:17:15,335 :: root :: WARNING :: No data for M978 HEMTT Tanker; it will not be available
+2023-01-12 17:17:15,335 :: root :: WARNING :: No data for HEMTT TFFT; it will not be available
+2023-01-12 17:17:15,336 :: root :: WARNING :: No data for IKARUS Bus; it will not be available
+2023-01-12 17:17:15,337 :: root :: WARNING :: No data for LAZ Bus; it will not be available
+2023-01-12 17:17:15,337 :: root :: WARNING :: No data for LiAZ Bus; it will not be available
+2023-01-12 17:17:15,337 :: root :: WARNING :: No data for Hummer; it will not be available
+2023-01-12 17:17:15,338 :: root :: WARNING :: No data for MAZ-6303; it will not be available
+2023-01-12 17:17:15,338 :: root :: WARNING :: No data for Predator GCS; it will not be available
+2023-01-12 17:17:15,339 :: root :: WARNING :: No data for Predator TrojanSpirit; it will not be available
+2023-01-12 17:17:15,339 :: root :: WARNING :: No data for Suidae; it will not be available
+2023-01-12 17:17:15,339 :: root :: WARNING :: No data for Tigr_233036; it will not be available
+2023-01-12 17:17:15,340 :: root :: WARNING :: No data for Trolley bus; it will not be available
+2023-01-12 17:17:15,341 :: root :: WARNING :: No data for Ural ATsP-6; it will not be available
+2023-01-12 17:17:15,342 :: root :: WARNING :: Ural-4320-31 has no class
+2023-01-12 17:17:15,343 :: root :: WARNING :: Ural-4320T has no class
+2023-01-12 17:17:15,343 :: root :: WARNING :: No data for Ural-375 PBU; it will not be available
+2023-01-12 17:17:15,345 :: root :: WARNING :: No data for VAZ Car; it will not be available
+2023-01-12 17:17:15,345 :: root :: WARNING :: No data for ZiL-131 APA-80; it will not be available
+2023-01-12 17:17:15,345 :: root :: WARNING :: No data for SKP-11; it will not be available
+2023-01-12 17:17:15,345 :: root :: WARNING :: No data for ZIL-131 KUNG; it will not be available
+2023-01-12 17:17:15,346 :: root :: WARNING :: No data for ZIL-4331; it will not be available
+2023-01-12 17:17:15,346 :: root :: WARNING :: No data for KrAZ6322; it will not be available
+2023-01-12 17:17:15,346 :: root :: WARNING :: No data for JTAC; it will not be available
+2023-01-12 17:17:15,347 :: root :: WARNING :: No data for Infantry Animated; it will not be available
+2023-01-12 17:17:15,347 :: root :: WARNING :: No data for Electric locomotive; it will not be available
+2023-01-12 17:17:15,347 :: root :: WARNING :: No data for Locomotive; it will not be available
+2023-01-12 17:17:15,348 :: root :: WARNING :: No data for Coach cargo; it will not be available
+2023-01-12 17:17:15,348 :: root :: WARNING :: No data for Coach cargo open; it will not be available
+2023-01-12 17:17:15,349 :: root :: WARNING :: No data for Coach a tank blue; it will not be available
+2023-01-12 17:17:15,349 :: root :: WARNING :: No data for Coach a tank yellow; it will not be available
+2023-01-12 17:17:15,349 :: root :: WARNING :: No data for Coach a passenger; it will not be available
+2023-01-12 17:17:15,350 :: root :: WARNING :: No data for Coach a platform; it will not be available
+2023-01-12 17:17:15,350 :: root :: WARNING :: No data for tacr2a; it will not be available
+2023-01-12 17:17:15,351 :: root :: WARNING :: No data for LARC-V; it will not be available
+2023-01-12 17:17:15,351 :: root :: WARNING :: No data for KS-19; it will not be available
+2023-01-12 17:17:15,351 :: root :: WARNING :: No data for SON_9; it will not be available
+2023-01-12 17:17:15,367 :: root :: WARNING :: No data for FPS-117 ECS; it will not be available
+2023-01-12 17:17:15,370 :: root :: WARNING :: No data for RD_75; it will not be available
+2023-01-12 17:17:15,377 :: root :: WARNING :: No data for generator_5i57; it will not be available
+2023-01-12 17:17:15,382 :: root :: WARNING :: No data for ATZ-5; it will not be available
+2023-01-12 17:17:15,382 :: root :: WARNING :: No data for AA8; it will not be available
+2023-01-12 17:17:15,382 :: root :: WARNING :: No data for TZ-22_KrAZ; it will not be available
+2023-01-12 17:17:15,383 :: root :: WARNING :: No data for ATZ-60_Maz; it will not be available
+2023-01-12 17:17:15,383 :: root :: WARNING :: No data for ZIL-135; it will not be available
+2023-01-12 17:17:15,383 :: root :: WARNING :: No data for S_75_ZIL; it will not be available
+2023-01-12 17:17:15,392 :: root :: WARNING :: No data for ES44AH; it will not be available
+2023-01-12 17:17:15,392 :: root :: WARNING :: No data for Boxcartrinity; it will not be available
+2023-01-12 17:17:15,392 :: root :: WARNING :: No data for Tankcartrinity; it will not be available
+2023-01-12 17:17:15,393 :: root :: WARNING :: No data for Wellcarnsc; it will not be available
+2023-01-12 17:17:15,416 :: root :: WARNING :: No data for HQ-7_LN_EO; it will not be available
+2023-01-12 17:17:15,418 :: root :: WARNING :: No data for TYPE-59; it will not be available
+2023-01-12 17:17:15,420 :: root :: WARNING :: Sd_Kfz_2 has no class
+2023-01-12 17:17:15,422 :: root :: WARNING :: No data for Horch_901_typ_40_kfz_21; it will not be available
+2023-01-12 17:17:15,435 :: root :: WARNING :: No data for Wespe124; it will not be available
+2023-01-12 17:17:15,449 :: root :: WARNING :: No data for fire_control; it will not be available
+2023-01-12 17:17:15,456 :: root :: WARNING :: No data for FuSe-65; it will not be available
+2023-01-12 17:17:15,456 :: root :: WARNING :: No data for Pak40; it will not be available
+2023-01-12 17:17:15,457 :: root :: WARNING :: No data for LeFH_18-40-105; it will not be available
+2023-01-12 17:17:15,469 :: root :: WARNING :: No data for Allies_Director; it will not be available
+2023-01-12 17:17:15,478 :: root :: WARNING :: No data for M2A1-105; it will not be available
+2023-01-12 17:17:15,484 :: root :: WARNING :: No data for DR_50Ton_Flat_Wagon; it will not be available
+2023-01-12 17:17:15,484 :: root :: WARNING :: No data for DRG_Class_86; it will not be available
+2023-01-12 17:17:15,485 :: root :: WARNING :: No data for German_covered_wagon_G10; it will not be available
+2023-01-12 17:17:15,485 :: root :: WARNING :: No data for German_tank_wagon; it will not be available
+2023-01-12 17:17:15,490 :: root :: WARNING :: VAB_50 has no class
+2023-01-12 17:17:15,491 :: root :: WARNING :: VIB_VBR has no class
+2023-01-12 17:17:15,497 :: root :: WARNING :: VBAE has no class
+2023-01-12 17:17:15,497 :: root :: WARNING :: VBAE_MMP has no class
+2023-01-12 17:17:15,499 :: root :: WARNING :: No data for SHERIDAN; it will not be available
+2023-01-12 17:17:15,504 :: root :: WARNING :: Kamikaze has no class
+2023-01-12 17:17:15,504 :: root :: WARNING :: No data for FieldHL; it will not be available
+2023-01-12 17:17:15,504 :: root :: WARNING :: No data for HARRIERH; it will not be available
+2023-01-12 17:17:15,505 :: root :: WARNING :: No data for SmokeD1; it will not be available
+2023-01-12 17:17:15,505 :: root :: WARNING :: No data for SmokeD3; it will not be available
+2023-01-12 17:17:15,506 :: root :: WARNING :: TRM2000 has no class
+2023-01-12 17:17:15,507 :: root :: WARNING :: TRM2000_Citerne has no class
+2023-01-12 17:17:15,508 :: root :: WARNING :: VABH has no class
+2023-01-12 17:17:15,509 :: root :: WARNING :: VAB_RADIO has no class
+2023-01-12 17:17:15,510 :: root :: WARNING :: VBL-Radio has no class
+2023-01-12 17:17:15,511 :: root :: WARNING :: Tracma has no class
+2023-01-12 17:17:15,511 :: root :: WARNING :: No data for SMOKESAM; it will not be available
+2023-01-12 17:17:15,514 :: root :: WARNING :: No data for Leclerc_XXI_Desert; it will not be available
+2023-01-12 17:17:15,519 :: root :: WARNING :: No data for T62; it will not be available
+2023-01-12 17:17:15,520 :: root :: WARNING :: No data for T64BV; it will not be available
+2023-01-12 17:17:15,520 :: root :: WARNING :: No data for T72M; it will not be available
+2023-01-12 17:17:15,520 :: root :: WARNING :: No data for KORNET; it will not be available
+2023-01-12 17:17:15,522 :: root :: WARNING :: M120 has no class
+2023-01-12 17:17:15,523 :: root :: WARNING :: VAB_MORTIER has no class
+2023-01-12 17:17:15,550 :: root :: WARNING :: No data for 34Ya6E Gazetchik E decoy; it will not be available
+2023-01-12 17:17:15,550 :: root :: WARNING :: No data for speedboat; it will not be available
+2023-01-12 17:17:15,551 :: root :: WARNING :: No data for VINSON; it will not be available
+2023-01-12 17:17:15,556 :: root :: WARNING :: No data for PIOTR; it will not be available
+2023-01-12 17:17:15,557 :: root :: WARNING :: No data for ELNYA; it will not be available
+2023-01-12 17:17:15,557 :: root :: WARNING :: No data for Dry-cargo ship-2; it will not be available
+2023-01-12 17:17:15,558 :: root :: WARNING :: No data for Dry-cargo ship-1; it will not be available
+2023-01-12 17:17:15,558 :: root :: WARNING :: No data for ZWEZDNY; it will not be available
+2023-01-12 17:17:15,559 :: root :: WARNING :: No data for IMPROVED_KILO; it will not be available
+2023-01-12 17:17:15,559 :: root :: WARNING :: No data for SOM; it will not be available
+2023-01-12 17:17:15,560 :: root :: WARNING :: No data for CV_1143_5; it will not be available
+2023-01-12 17:17:15,561 :: root :: WARNING :: No data for HarborTug; it will not be available
+2023-01-12 17:17:15,564 :: root :: WARNING :: No data for leander-gun-condell; it will not be available
+2023-01-12 17:17:15,564 :: root :: WARNING :: No data for leander-gun-lynch; it will not be available
+2023-01-12 17:17:15,564 :: root :: WARNING :: No data for Ship_Tilde_Supply; it will not be available
+2023-01-12 17:17:15,565 :: root :: WARNING :: No data for santafe; it will not be available
+2023-01-12 17:17:15,565 :: root :: WARNING :: No data for HandyWind; it will not be available
+2023-01-12 17:17:15,565 :: root :: WARNING :: No data for Seawise_Giant; it will not be available
+2023-01-12 17:17:15,566 :: root :: WARNING :: No data for CVN_71; it will not be available
+2023-01-12 17:17:15,566 :: root :: WARNING :: No data for CVN_72; it will not be available
+2023-01-12 17:17:15,567 :: root :: WARNING :: No data for CVN_73; it will not be available
+2023-01-12 17:17:15,568 :: root :: WARNING :: No data for CVN_75; it will not be available
+2023-01-12 17:17:15,571 :: root :: WARNING :: No data for Type_093; it will not be available
+2023-01-12 17:17:15,574 :: root :: WARNING :: No data for Higgins_boat; it will not be available
+2023-01-12 17:17:18,152 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:17:18,160 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:17:18,161 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:17:18,165 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:17:18,165 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:17:18,170 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:17:18,172 :: root :: INFO :: Generating flight: Su-25T Frogfoot
+2023-01-12 17:17:18,183 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:17:18,190 :: root :: INFO :: Generating flight: E-3A
+2023-01-12 17:17:18,192 :: root :: INFO :: Generating flight: MiG-29S Fulcrum-C
+2023-01-12 17:17:18,205 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:17:18,208 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:17:18,211 :: root :: INFO :: Generating flight: A-50
+2023-01-12 17:17:18,213 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:17:18,214 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:17:18,214 :: root :: INFO :: Generating flight: IL-78M
+2023-01-12 17:17:18,217 :: root :: ERROR :: Uncaught exception
+Traceback (most recent call last):
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\qt_ui\widgets\QTopPanel.py", line 288, in launch_mission
+    self.sim_controller.generate_miz(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\qt_ui\simcontroller.py", line 76, in generate_miz
+    self.game_loop.pause_and_generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\sim\gameloop.py", line 67, in pause_and_generate_miz
+    self.sim.generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\sim\missionsimulation.py", line 51, in generate_miz
+    self.unit_map = MissionGenerator(self.game, self.time).generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\missiongenerator.py", line 107, in generate_miz
+    self.generate_air_units(tgo_generator)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\missiongenerator.py", line 255, in generate_air_units
+    aircraft_generator.generate_flights(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\aircraftgenerator.py", line 110, in generate_flights
+    group = self.create_and_configure_flight(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\aircraftgenerator.py", line 181, in create_and_configure_flight
+    ).configure()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\flightgroupconfigurator.py", line 105, in configure
+    ).create_waypoints()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\waypointgenerator.py", line 115, in create_waypoints
+    self.builder_for_waypoint(point).build()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\pydcswaypointbuilder.py", line 65, in build
+    self.add_tasks(waypoint)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\recoverytanker.py", line 13, in add_tasks
+    group_id = self._get_carrier_group_id()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\recoverytanker.py", line 36, in _get_carrier_group_id
+    assert theater_mapping is not None
+UnboundLocalError: local variable 'theater_mapping' referenced before assignment
+2023-01-12 17:18:58,933 :: root :: INFO :: DCS Liberation 6.1.0-preview
+2023-01-12 17:18:58,933 :: root :: DEBUG :: Python version 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]
+2023-01-12 17:18:58,969 :: uvicorn.error :: INFO :: Started server process [264]
+2023-01-12 17:18:58,969 :: uvicorn.error :: INFO :: Waiting for application startup.
+2023-01-12 17:18:58,970 :: uvicorn.error :: INFO :: Application startup complete.
+2023-01-12 17:18:58,971 :: uvicorn.error :: INFO :: Uvicorn running on http://[::1]:16880 (Press CTRL+C to quit)
+2023-01-12 17:18:59,162 :: root :: INFO :: Loading stylesheet: style-dcs.css
+2023-01-12 17:18:59,162 :: root :: DEBUG :: Loading Liberation preferences from C:\Users\usuario\AppData\Local\DCSLiberation\liberation_preferences.json
+2023-01-12 17:18:59,163 :: root :: INFO :: Using S:/Saved Games/DCS.openbeta as 'Saved Game Folder'
+2023-01-12 17:18:59,163 :: root :: INFO :: Using S:/DCS World OpenBeta as 'DCS installation folder'
+2023-01-12 17:19:01,694 :: root :: INFO :: Loading last saved game : S:/Saved Games/DCS.openbeta/Liberation/Saves/testing AI.liberation
+2023-01-12 17:19:01,695 :: root :: ERROR :: Invalid Save game
+Traceback (most recent call last):
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\persistency.py", line 49, in load_game
+    save = pickle.load(f)
+AttributeError: Can't get attribute 'NightMissions' on <module 'game.settings.settings' from 'F:\\DCS_Liberation\\dcs_liberation-6.1.0\\game\\settings\\settings.py'>
+2023-01-12 17:19:01,696 :: root :: INFO :: On Game generated
+2023-01-12 17:19:07,662 :: root :: WARNING :: Mi-24V does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,664 :: root :: WARNING :: Mi-8MT does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,665 :: root :: WARNING :: Mi-26 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,666 :: root :: WARNING :: No data for Ka-27; it will not be available
+2023-01-12 17:19:07,667 :: root :: WARNING :: UH-60A does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,668 :: root :: WARNING :: CH-53E does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,669 :: root :: WARNING :: CH-47D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,670 :: root :: WARNING :: No data for SH-3W; it will not be available
+2023-01-12 17:19:07,672 :: root :: WARNING :: AH-64A does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,675 :: root :: WARNING :: AH-64D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,677 :: root :: WARNING :: AH-1W does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,680 :: root :: WARNING :: SH-60B does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,683 :: root :: WARNING :: UH-1H does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,686 :: root :: WARNING :: Mi-28N does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,690 :: root :: WARNING :: OH-58D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,695 :: root :: WARNING :: AH-64D_BLK_II does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,696 :: root :: WARNING :: Ka-50 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,699 :: root :: WARNING :: Ka-50_3 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,702 :: root :: WARNING :: Mi-24P does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,705 :: root :: WARNING :: SA342M does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,708 :: root :: WARNING :: SA342L does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,711 :: root :: WARNING :: SA342Mistral does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,712 :: root :: WARNING :: SA342Minigun does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,715 :: root :: WARNING :: UH-60L does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:19:07,717 :: root :: WARNING :: Tornado GR4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,718 :: root :: WARNING :: Tornado IDS does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,719 :: root :: WARNING :: No data for F/A-18A; it will not be available
+2023-01-12 17:19:07,719 :: root :: WARNING :: No data for F/A-18C; it will not be available
+2023-01-12 17:19:07,719 :: root :: WARNING :: No data for F-14A; it will not be available
+2023-01-12 17:19:07,721 :: root :: WARNING :: Tu-22M3 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,729 :: root :: WARNING :: MiG-27K does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,735 :: root :: WARNING :: MiG-23MLD does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,738 :: root :: WARNING :: No data for Su-25TM; it will not be available
+2023-01-12 17:19:07,759 :: root :: WARNING :: Tu-95MS does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,766 :: root :: WARNING :: F-117A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,771 :: root :: WARNING :: S-3B does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,788 :: root :: WARNING :: Tu-142 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,791 :: root :: WARNING :: An-30M does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,797 :: root :: WARNING :: No data for F-16C bl.50; it will not be available
+2023-01-12 17:19:07,797 :: root :: WARNING :: No data for F-16C bl.52d; it will not be available
+2023-01-12 17:19:07,799 :: root :: WARNING :: No data for F-16A MLU; it will not be available
+2023-01-12 17:19:07,800 :: root :: WARNING :: RQ-1A Predator does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,804 :: root :: WARNING :: FW-190D9 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,807 :: root :: WARNING :: FW-190A8 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,809 :: root :: WARNING :: Bf-109K-4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,813 :: root :: WARNING :: SpitfireLFMkIX does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,817 :: root :: WARNING :: SpitfireLFMkIXCW does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,820 :: root :: WARNING :: P-51D does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,824 :: root :: WARNING :: P-51D-30-NA does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,827 :: root :: WARNING :: P-47D-30 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,830 :: root :: WARNING :: P-47D-30bl1 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,834 :: root :: WARNING :: P-47D-40 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,836 :: root :: WARNING :: MosquitoFBMkVI does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,838 :: root :: WARNING :: A-20G does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,841 :: root :: WARNING :: A-10A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,843 :: root :: WARNING :: A-10C does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,846 :: root :: WARNING :: A-10C_2 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,849 :: root :: WARNING :: AJS37 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,856 :: root :: WARNING :: No data for C-101EB; it will not be available
+2023-01-12 17:19:07,858 :: root :: WARNING :: C-101CC does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,860 :: root :: WARNING :: J-11A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,863 :: root :: WARNING :: JF-17 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,865 :: root :: WARNING :: WingLoong-I does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,868 :: root :: WARNING :: No data for Christen Eagle II; it will not be available
+2023-01-12 17:19:07,875 :: root :: WARNING :: No data for F-5E; it will not be available
+2023-01-12 17:19:07,880 :: root :: WARNING :: F-86F Sabre does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,898 :: root :: WARNING :: FA-18C_hornet does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,898 :: root :: WARNING :: No data for Hawk; it will not be available
+2023-01-12 17:19:07,901 :: root :: WARNING :: I-16 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,901 :: root :: WARNING :: No data for L-39C; it will not be available
+2023-01-12 17:19:07,903 :: root :: WARNING :: L-39ZA does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,908 :: root :: WARNING :: No data for MB-339APAN; it will not be available
+2023-01-12 17:19:07,909 :: root :: WARNING :: MQ-9 Reaper does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,912 :: root :: WARNING :: MiG-15bis does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,915 :: root :: WARNING :: MiG-19P does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,918 :: root :: WARNING :: No data for Mirage-F1C; it will not be available
+2023-01-12 17:19:07,927 :: root :: WARNING :: No data for Mirage-F1EH; it will not be available
+2023-01-12 17:19:07,927 :: root :: WARNING :: No data for Mirage-F1CH; it will not be available
+2023-01-12 17:19:07,928 :: root :: WARNING :: No data for Mirage-F1JA; it will not be available
+2023-01-12 17:19:07,928 :: root :: WARNING :: No data for Mirage-F1CG; it will not be available
+2023-01-12 17:19:07,928 :: root :: WARNING :: No data for Mirage-F1CZ; it will not be available
+2023-01-12 17:19:07,929 :: root :: WARNING :: No data for Mirage-F1CJ; it will not be available
+2023-01-12 17:19:07,929 :: root :: WARNING :: No data for Mirage-F1CK; it will not be available
+2023-01-12 17:19:07,931 :: root :: WARNING :: No data for Mirage-F1ED; it will not be available
+2023-01-12 17:19:07,932 :: root :: WARNING :: No data for Mirage-F1EDA; it will not be available
+2023-01-12 17:19:07,932 :: root :: WARNING :: No data for Mirage-F1CR; it will not be available
+2023-01-12 17:19:07,938 :: root :: WARNING :: No data for Mirage-F1BQ; it will not be available
+2023-01-12 17:19:07,938 :: root :: WARNING :: No data for Mirage-F1BD; it will not be available
+2023-01-12 17:19:07,939 :: root :: WARNING :: No data for Mirage-F1DDA; it will not be available
+2023-01-12 17:19:07,941 :: root :: WARNING :: No data for Yak-52; it will not be available
+2023-01-12 17:19:07,944 :: root :: WARNING :: B-17G does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,946 :: root :: WARNING :: Ju-88A4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,947 :: root :: WARNING :: No data for C-47; it will not be available
+2023-01-12 17:19:07,947 :: root :: WARNING :: No data for TF-51D; it will not be available
+2023-01-12 17:19:07,949 :: root :: WARNING :: A-4E-C does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,950 :: root :: WARNING :: No data for VSN_F104C; it will not be available
+2023-01-12 17:19:07,957 :: root :: WARNING :: F-22A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,961 :: root :: WARNING :: JAS39Gripen does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,963 :: root :: WARNING :: JAS39Gripen_AG does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,965 :: root :: WARNING :: Bronco-OV-10A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:07,968 :: root :: WARNING :: Su-57 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:19:08,745 :: root :: INFO :: Reading plugins list from resources\plugins\plugins.json
+2023-01-12 17:19:08,745 :: root :: INFO :: Loading plugin base from resources\plugins\base\plugin.json
+2023-01-12 17:19:08,746 :: root :: INFO :: Loading plugin ctld from resources\plugins\ctld\plugin.json
+2023-01-12 17:19:08,746 :: root :: INFO :: Loading plugin skynetiads from resources\plugins\skynetiads\plugin.json
+2023-01-12 17:19:08,747 :: root :: INFO :: Loading plugin ewrs from resources\plugins\ewrs\plugin.json
+2023-01-12 17:19:08,747 :: root :: INFO :: Loading plugin herculescargo from resources\plugins\herculescargo\plugin.json
+2023-01-12 17:19:08,748 :: root :: INFO :: Loading plugin splashdamage from resources\plugins\splashdamage\plugin.json
+2023-01-12 17:19:08,748 :: root :: INFO :: Loading plugin lotatc from resources\plugins\lotatc\plugin.json
+2023-01-12 17:19:08,789 :: root :: WARNING :: No data for Bunker; it will not be available
+2023-01-12 17:19:08,792 :: root :: WARNING :: No data for Sandbox; it will not be available
+2023-01-12 17:19:08,796 :: root :: WARNING :: No data for MLRS FDDM; it will not be available
+2023-01-12 17:19:08,797 :: root :: WARNING :: No data for Infantry AK ver2; it will not be available
+2023-01-12 17:19:08,797 :: root :: WARNING :: No data for Infantry AK ver3; it will not be available
+2023-01-12 17:19:08,818 :: root :: WARNING :: Patriot AMG has no class
+2023-01-12 17:19:08,861 :: root :: WARNING :: No data for house1arm; it will not be available
+2023-01-12 17:19:08,862 :: root :: WARNING :: No data for outpost_road; it will not be available
+2023-01-12 17:19:08,862 :: root :: WARNING :: No data for outpost; it will not be available
+2023-01-12 17:19:08,862 :: root :: WARNING :: No data for houseA_arm; it will not be available
+2023-01-12 17:19:08,862 :: root :: WARNING :: No data for TACAN_beacon; it will not be available
+2023-01-12 17:19:08,884 :: root :: WARNING :: No data for Ural-4320 APA-5D; it will not be available
+2023-01-12 17:19:08,884 :: root :: WARNING :: No data for ATMZ-5; it will not be available
+2023-01-12 17:19:08,885 :: root :: WARNING :: No data for ATZ-10; it will not be available
+2023-01-12 17:19:08,887 :: root :: WARNING :: No data for M978 HEMTT Tanker; it will not be available
+2023-01-12 17:19:08,887 :: root :: WARNING :: No data for HEMTT TFFT; it will not be available
+2023-01-12 17:19:08,888 :: root :: WARNING :: No data for IKARUS Bus; it will not be available
+2023-01-12 17:19:08,889 :: root :: WARNING :: No data for LAZ Bus; it will not be available
+2023-01-12 17:19:08,889 :: root :: WARNING :: No data for LiAZ Bus; it will not be available
+2023-01-12 17:19:08,889 :: root :: WARNING :: No data for Hummer; it will not be available
+2023-01-12 17:19:08,891 :: root :: WARNING :: No data for MAZ-6303; it will not be available
+2023-01-12 17:19:08,891 :: root :: WARNING :: No data for Predator GCS; it will not be available
+2023-01-12 17:19:08,891 :: root :: WARNING :: No data for Predator TrojanSpirit; it will not be available
+2023-01-12 17:19:08,892 :: root :: WARNING :: No data for Suidae; it will not be available
+2023-01-12 17:19:08,892 :: root :: WARNING :: No data for Tigr_233036; it will not be available
+2023-01-12 17:19:08,892 :: root :: WARNING :: No data for Trolley bus; it will not be available
+2023-01-12 17:19:08,893 :: root :: WARNING :: No data for Ural ATsP-6; it will not be available
+2023-01-12 17:19:08,894 :: root :: WARNING :: Ural-4320-31 has no class
+2023-01-12 17:19:08,895 :: root :: WARNING :: Ural-4320T has no class
+2023-01-12 17:19:08,895 :: root :: WARNING :: No data for Ural-375 PBU; it will not be available
+2023-01-12 17:19:08,896 :: root :: WARNING :: No data for VAZ Car; it will not be available
+2023-01-12 17:19:08,896 :: root :: WARNING :: No data for ZiL-131 APA-80; it will not be available
+2023-01-12 17:19:08,897 :: root :: WARNING :: No data for SKP-11; it will not be available
+2023-01-12 17:19:08,897 :: root :: WARNING :: No data for ZIL-131 KUNG; it will not be available
+2023-01-12 17:19:08,897 :: root :: WARNING :: No data for ZIL-4331; it will not be available
+2023-01-12 17:19:08,898 :: root :: WARNING :: No data for KrAZ6322; it will not be available
+2023-01-12 17:19:08,898 :: root :: WARNING :: No data for JTAC; it will not be available
+2023-01-12 17:19:08,898 :: root :: WARNING :: No data for Infantry Animated; it will not be available
+2023-01-12 17:19:08,899 :: root :: WARNING :: No data for Electric locomotive; it will not be available
+2023-01-12 17:19:08,899 :: root :: WARNING :: No data for Locomotive; it will not be available
+2023-01-12 17:19:08,899 :: root :: WARNING :: No data for Coach cargo; it will not be available
+2023-01-12 17:19:08,900 :: root :: WARNING :: No data for Coach cargo open; it will not be available
+2023-01-12 17:19:08,900 :: root :: WARNING :: No data for Coach a tank blue; it will not be available
+2023-01-12 17:19:08,900 :: root :: WARNING :: No data for Coach a tank yellow; it will not be available
+2023-01-12 17:19:08,900 :: root :: WARNING :: No data for Coach a passenger; it will not be available
+2023-01-12 17:19:08,901 :: root :: WARNING :: No data for Coach a platform; it will not be available
+2023-01-12 17:19:08,901 :: root :: WARNING :: No data for tacr2a; it will not be available
+2023-01-12 17:19:08,901 :: root :: WARNING :: No data for LARC-V; it will not be available
+2023-01-12 17:19:08,902 :: root :: WARNING :: No data for KS-19; it will not be available
+2023-01-12 17:19:08,902 :: root :: WARNING :: No data for SON_9; it will not be available
+2023-01-12 17:19:08,917 :: root :: WARNING :: No data for FPS-117 ECS; it will not be available
+2023-01-12 17:19:08,919 :: root :: WARNING :: No data for RD_75; it will not be available
+2023-01-12 17:19:08,926 :: root :: WARNING :: No data for generator_5i57; it will not be available
+2023-01-12 17:19:08,931 :: root :: WARNING :: No data for ATZ-5; it will not be available
+2023-01-12 17:19:08,931 :: root :: WARNING :: No data for AA8; it will not be available
+2023-01-12 17:19:08,931 :: root :: WARNING :: No data for TZ-22_KrAZ; it will not be available
+2023-01-12 17:19:08,932 :: root :: WARNING :: No data for ATZ-60_Maz; it will not be available
+2023-01-12 17:19:08,932 :: root :: WARNING :: No data for ZIL-135; it will not be available
+2023-01-12 17:19:08,932 :: root :: WARNING :: No data for S_75_ZIL; it will not be available
+2023-01-12 17:19:08,941 :: root :: WARNING :: No data for ES44AH; it will not be available
+2023-01-12 17:19:08,941 :: root :: WARNING :: No data for Boxcartrinity; it will not be available
+2023-01-12 17:19:08,941 :: root :: WARNING :: No data for Tankcartrinity; it will not be available
+2023-01-12 17:19:08,942 :: root :: WARNING :: No data for Wellcarnsc; it will not be available
+2023-01-12 17:19:08,962 :: root :: WARNING :: No data for HQ-7_LN_EO; it will not be available
+2023-01-12 17:19:08,965 :: root :: WARNING :: No data for TYPE-59; it will not be available
+2023-01-12 17:19:08,967 :: root :: WARNING :: Sd_Kfz_2 has no class
+2023-01-12 17:19:08,968 :: root :: WARNING :: No data for Horch_901_typ_40_kfz_21; it will not be available
+2023-01-12 17:19:08,980 :: root :: WARNING :: No data for Wespe124; it will not be available
+2023-01-12 17:19:08,991 :: root :: WARNING :: No data for fire_control; it will not be available
+2023-01-12 17:19:08,998 :: root :: WARNING :: No data for FuSe-65; it will not be available
+2023-01-12 17:19:08,998 :: root :: WARNING :: No data for Pak40; it will not be available
+2023-01-12 17:19:08,999 :: root :: WARNING :: No data for LeFH_18-40-105; it will not be available
+2023-01-12 17:19:09,010 :: root :: WARNING :: No data for Allies_Director; it will not be available
+2023-01-12 17:19:09,019 :: root :: WARNING :: No data for M2A1-105; it will not be available
+2023-01-12 17:19:09,024 :: root :: WARNING :: No data for DR_50Ton_Flat_Wagon; it will not be available
+2023-01-12 17:19:09,024 :: root :: WARNING :: No data for DRG_Class_86; it will not be available
+2023-01-12 17:19:09,024 :: root :: WARNING :: No data for German_covered_wagon_G10; it will not be available
+2023-01-12 17:19:09,025 :: root :: WARNING :: No data for German_tank_wagon; it will not be available
+2023-01-12 17:19:09,030 :: root :: WARNING :: VAB_50 has no class
+2023-01-12 17:19:09,031 :: root :: WARNING :: VIB_VBR has no class
+2023-01-12 17:19:09,036 :: root :: WARNING :: VBAE has no class
+2023-01-12 17:19:09,037 :: root :: WARNING :: VBAE_MMP has no class
+2023-01-12 17:19:09,039 :: root :: WARNING :: No data for SHERIDAN; it will not be available
+2023-01-12 17:19:09,043 :: root :: WARNING :: Kamikaze has no class
+2023-01-12 17:19:09,044 :: root :: WARNING :: No data for FieldHL; it will not be available
+2023-01-12 17:19:09,044 :: root :: WARNING :: No data for HARRIERH; it will not be available
+2023-01-12 17:19:09,044 :: root :: WARNING :: No data for SmokeD1; it will not be available
+2023-01-12 17:19:09,044 :: root :: WARNING :: No data for SmokeD3; it will not be available
+2023-01-12 17:19:09,045 :: root :: WARNING :: TRM2000 has no class
+2023-01-12 17:19:09,046 :: root :: WARNING :: TRM2000_Citerne has no class
+2023-01-12 17:19:09,047 :: root :: WARNING :: VABH has no class
+2023-01-12 17:19:09,048 :: root :: WARNING :: VAB_RADIO has no class
+2023-01-12 17:19:09,049 :: root :: WARNING :: VBL-Radio has no class
+2023-01-12 17:19:09,050 :: root :: WARNING :: Tracma has no class
+2023-01-12 17:19:09,050 :: root :: WARNING :: No data for SMOKESAM; it will not be available
+2023-01-12 17:19:09,053 :: root :: WARNING :: No data for Leclerc_XXI_Desert; it will not be available
+2023-01-12 17:19:09,058 :: root :: WARNING :: No data for T62; it will not be available
+2023-01-12 17:19:09,059 :: root :: WARNING :: No data for T64BV; it will not be available
+2023-01-12 17:19:09,059 :: root :: WARNING :: No data for T72M; it will not be available
+2023-01-12 17:19:09,060 :: root :: WARNING :: No data for KORNET; it will not be available
+2023-01-12 17:19:09,061 :: root :: WARNING :: M120 has no class
+2023-01-12 17:19:09,062 :: root :: WARNING :: VAB_MORTIER has no class
+2023-01-12 17:19:09,088 :: root :: WARNING :: No data for 34Ya6E Gazetchik E decoy; it will not be available
+2023-01-12 17:19:09,089 :: root :: WARNING :: No data for speedboat; it will not be available
+2023-01-12 17:19:09,090 :: root :: WARNING :: No data for VINSON; it will not be available
+2023-01-12 17:19:09,094 :: root :: WARNING :: No data for PIOTR; it will not be available
+2023-01-12 17:19:09,095 :: root :: WARNING :: No data for ELNYA; it will not be available
+2023-01-12 17:19:09,095 :: root :: WARNING :: No data for Dry-cargo ship-2; it will not be available
+2023-01-12 17:19:09,096 :: root :: WARNING :: No data for Dry-cargo ship-1; it will not be available
+2023-01-12 17:19:09,096 :: root :: WARNING :: No data for ZWEZDNY; it will not be available
+2023-01-12 17:19:09,097 :: root :: WARNING :: No data for IMPROVED_KILO; it will not be available
+2023-01-12 17:19:09,097 :: root :: WARNING :: No data for SOM; it will not be available
+2023-01-12 17:19:09,098 :: root :: WARNING :: No data for CV_1143_5; it will not be available
+2023-01-12 17:19:09,099 :: root :: WARNING :: No data for HarborTug; it will not be available
+2023-01-12 17:19:09,102 :: root :: WARNING :: No data for leander-gun-condell; it will not be available
+2023-01-12 17:19:09,102 :: root :: WARNING :: No data for leander-gun-lynch; it will not be available
+2023-01-12 17:19:09,102 :: root :: WARNING :: No data for Ship_Tilde_Supply; it will not be available
+2023-01-12 17:19:09,103 :: root :: WARNING :: No data for santafe; it will not be available
+2023-01-12 17:19:09,103 :: root :: WARNING :: No data for HandyWind; it will not be available
+2023-01-12 17:19:09,103 :: root :: WARNING :: No data for Seawise_Giant; it will not be available
+2023-01-12 17:19:09,104 :: root :: WARNING :: No data for CVN_71; it will not be available
+2023-01-12 17:19:09,105 :: root :: WARNING :: No data for CVN_72; it will not be available
+2023-01-12 17:19:09,105 :: root :: WARNING :: No data for CVN_73; it will not be available
+2023-01-12 17:19:09,106 :: root :: WARNING :: No data for CVN_75; it will not be available
+2023-01-12 17:19:09,110 :: root :: WARNING :: No data for Type_093; it will not be available
+2023-01-12 17:19:09,112 :: root :: WARNING :: No data for Higgins_boat; it will not be available
+2023-01-12 17:19:11,490 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:19:11,501 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:19:11,502 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:19:11,505 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:19:11,506 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:19:11,513 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:19:11,515 :: root :: INFO :: Generating flight: Su-25T Frogfoot
+2023-01-12 17:19:11,525 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:19:11,531 :: root :: INFO :: Generating flight: E-3A
+2023-01-12 17:19:11,534 :: root :: INFO :: Generating flight: MiG-29S Fulcrum-C
+2023-01-12 17:19:11,544 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:19:11,546 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:19:11,548 :: root :: INFO :: Generating flight: A-50
+2023-01-12 17:19:11,551 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:19:11,552 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:19:11,552 :: root :: INFO :: Generating flight: IL-78M
+2023-01-12 17:19:11,555 :: root :: ERROR :: Uncaught exception
+Traceback (most recent call last):
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\qt_ui\widgets\QTopPanel.py", line 288, in launch_mission
+    self.sim_controller.generate_miz(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\qt_ui\simcontroller.py", line 76, in generate_miz
+    self.game_loop.pause_and_generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\sim\gameloop.py", line 67, in pause_and_generate_miz
+    self.sim.generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\sim\missionsimulation.py", line 51, in generate_miz
+    self.unit_map = MissionGenerator(self.game, self.time).generate_miz(output)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\missiongenerator.py", line 107, in generate_miz
+    self.generate_air_units(tgo_generator)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\missiongenerator.py", line 255, in generate_air_units
+    aircraft_generator.generate_flights(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\aircraftgenerator.py", line 110, in generate_flights
+    group = self.create_and_configure_flight(
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\aircraftgenerator.py", line 181, in create_and_configure_flight
+    ).configure()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\flightgroupconfigurator.py", line 105, in configure
+    ).create_waypoints()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\waypointgenerator.py", line 115, in create_waypoints
+    self.builder_for_waypoint(point).build()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\pydcswaypointbuilder.py", line 65, in build
+    self.add_tasks(waypoint)
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\recoverytanker.py", line 13, in add_tasks
+    group_id = self._get_carrier_group_id()
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\missiongenerator\aircraft\waypoints\recoverytanker.py", line 36, in _get_carrier_group_id
+    return theater_mapping.dcs_group_id
+UnboundLocalError: local variable 'theater_mapping' referenced before assignment
+2023-01-12 17:20:57,576 :: root :: INFO :: DCS Liberation 6.1.0-preview
+2023-01-12 17:20:57,576 :: root :: DEBUG :: Python version 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]
+2023-01-12 17:20:57,611 :: uvicorn.error :: INFO :: Started server process [5436]
+2023-01-12 17:20:57,611 :: uvicorn.error :: INFO :: Waiting for application startup.
+2023-01-12 17:20:57,611 :: uvicorn.error :: INFO :: Application startup complete.
+2023-01-12 17:20:57,612 :: uvicorn.error :: INFO :: Uvicorn running on http://[::1]:16880 (Press CTRL+C to quit)
+2023-01-12 17:20:57,802 :: root :: INFO :: Loading stylesheet: style-dcs.css
+2023-01-12 17:20:57,803 :: root :: DEBUG :: Loading Liberation preferences from C:\Users\usuario\AppData\Local\DCSLiberation\liberation_preferences.json
+2023-01-12 17:20:57,803 :: root :: INFO :: Using S:/Saved Games/DCS.openbeta as 'Saved Game Folder'
+2023-01-12 17:20:57,804 :: root :: INFO :: Using S:/DCS World OpenBeta as 'DCS installation folder'
+2023-01-12 17:21:00,034 :: root :: INFO :: Loading last saved game : S:/Saved Games/DCS.openbeta/Liberation/Saves/testing AI.liberation
+2023-01-12 17:21:00,035 :: root :: ERROR :: Invalid Save game
+Traceback (most recent call last):
+  File "F:\DCS_Liberation\dcs_liberation-6.1.0\game\persistency.py", line 49, in load_game
+    save = pickle.load(f)
+AttributeError: Can't get attribute 'NightMissions' on <module 'game.settings.settings' from 'F:\\DCS_Liberation\\dcs_liberation-6.1.0\\game\\settings\\settings.py'>
+2023-01-12 17:21:00,036 :: root :: INFO :: On Game generated
+2023-01-12 17:21:05,560 :: root :: WARNING :: Mi-24V does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,563 :: root :: WARNING :: Mi-8MT does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,565 :: root :: WARNING :: Mi-26 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,565 :: root :: WARNING :: No data for Ka-27; it will not be available
+2023-01-12 17:21:05,566 :: root :: WARNING :: UH-60A does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,568 :: root :: WARNING :: CH-53E does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,570 :: root :: WARNING :: CH-47D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,570 :: root :: WARNING :: No data for SH-3W; it will not be available
+2023-01-12 17:21:05,573 :: root :: WARNING :: AH-64A does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,577 :: root :: WARNING :: AH-64D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,579 :: root :: WARNING :: AH-1W does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,582 :: root :: WARNING :: SH-60B does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,585 :: root :: WARNING :: UH-1H does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,587 :: root :: WARNING :: Mi-28N does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,590 :: root :: WARNING :: OH-58D does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,595 :: root :: WARNING :: AH-64D_BLK_II does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,597 :: root :: WARNING :: Ka-50 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,600 :: root :: WARNING :: Ka-50_3 does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,603 :: root :: WARNING :: Mi-24P does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,606 :: root :: WARNING :: SA342M does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,609 :: root :: WARNING :: SA342L does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,612 :: root :: WARNING :: SA342Mistral does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,614 :: root :: WARNING :: SA342Minigun does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,616 :: root :: WARNING :: UH-60L does not specify a max_range. Defaulting to 50.0NM
+2023-01-12 17:21:05,618 :: root :: WARNING :: Tornado GR4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,620 :: root :: WARNING :: Tornado IDS does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,620 :: root :: WARNING :: No data for F/A-18A; it will not be available
+2023-01-12 17:21:05,620 :: root :: WARNING :: No data for F/A-18C; it will not be available
+2023-01-12 17:21:05,620 :: root :: WARNING :: No data for F-14A; it will not be available
+2023-01-12 17:21:05,622 :: root :: WARNING :: Tu-22M3 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,629 :: root :: WARNING :: MiG-27K does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,633 :: root :: WARNING :: MiG-23MLD does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,636 :: root :: WARNING :: No data for Su-25TM; it will not be available
+2023-01-12 17:21:05,657 :: root :: WARNING :: Tu-95MS does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,663 :: root :: WARNING :: F-117A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,668 :: root :: WARNING :: S-3B does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,686 :: root :: WARNING :: Tu-142 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,689 :: root :: WARNING :: An-30M does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,696 :: root :: WARNING :: No data for F-16C bl.50; it will not be available
+2023-01-12 17:21:05,696 :: root :: WARNING :: No data for F-16C bl.52d; it will not be available
+2023-01-12 17:21:05,697 :: root :: WARNING :: No data for F-16A MLU; it will not be available
+2023-01-12 17:21:05,698 :: root :: WARNING :: RQ-1A Predator does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,703 :: root :: WARNING :: FW-190D9 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,707 :: root :: WARNING :: FW-190A8 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,709 :: root :: WARNING :: Bf-109K-4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,713 :: root :: WARNING :: SpitfireLFMkIX does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,717 :: root :: WARNING :: SpitfireLFMkIXCW does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,721 :: root :: WARNING :: P-51D does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,726 :: root :: WARNING :: P-51D-30-NA does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,731 :: root :: WARNING :: P-47D-30 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,735 :: root :: WARNING :: P-47D-30bl1 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,739 :: root :: WARNING :: P-47D-40 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,742 :: root :: WARNING :: MosquitoFBMkVI does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,744 :: root :: WARNING :: A-20G does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,747 :: root :: WARNING :: A-10A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,749 :: root :: WARNING :: A-10C does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,752 :: root :: WARNING :: A-10C_2 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,755 :: root :: WARNING :: AJS37 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,763 :: root :: WARNING :: No data for C-101EB; it will not be available
+2023-01-12 17:21:05,765 :: root :: WARNING :: C-101CC does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,767 :: root :: WARNING :: J-11A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,771 :: root :: WARNING :: JF-17 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,773 :: root :: WARNING :: WingLoong-I does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,776 :: root :: WARNING :: No data for Christen Eagle II; it will not be available
+2023-01-12 17:21:05,781 :: root :: WARNING :: No data for F-5E; it will not be available
+2023-01-12 17:21:05,787 :: root :: WARNING :: F-86F Sabre does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,800 :: root :: WARNING :: FA-18C_hornet does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,801 :: root :: WARNING :: No data for Hawk; it will not be available
+2023-01-12 17:21:05,803 :: root :: WARNING :: I-16 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,804 :: root :: WARNING :: No data for L-39C; it will not be available
+2023-01-12 17:21:05,806 :: root :: WARNING :: L-39ZA does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,813 :: root :: WARNING :: No data for MB-339APAN; it will not be available
+2023-01-12 17:21:05,814 :: root :: WARNING :: MQ-9 Reaper does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,817 :: root :: WARNING :: MiG-15bis does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,820 :: root :: WARNING :: MiG-19P does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,824 :: root :: WARNING :: No data for Mirage-F1C; it will not be available
+2023-01-12 17:21:05,834 :: root :: WARNING :: No data for Mirage-F1EH; it will not be available
+2023-01-12 17:21:05,835 :: root :: WARNING :: No data for Mirage-F1CH; it will not be available
+2023-01-12 17:21:05,835 :: root :: WARNING :: No data for Mirage-F1JA; it will not be available
+2023-01-12 17:21:05,836 :: root :: WARNING :: No data for Mirage-F1CG; it will not be available
+2023-01-12 17:21:05,836 :: root :: WARNING :: No data for Mirage-F1CZ; it will not be available
+2023-01-12 17:21:05,837 :: root :: WARNING :: No data for Mirage-F1CJ; it will not be available
+2023-01-12 17:21:05,837 :: root :: WARNING :: No data for Mirage-F1CK; it will not be available
+2023-01-12 17:21:05,839 :: root :: WARNING :: No data for Mirage-F1ED; it will not be available
+2023-01-12 17:21:05,840 :: root :: WARNING :: No data for Mirage-F1EDA; it will not be available
+2023-01-12 17:21:05,840 :: root :: WARNING :: No data for Mirage-F1CR; it will not be available
+2023-01-12 17:21:05,847 :: root :: WARNING :: No data for Mirage-F1BQ; it will not be available
+2023-01-12 17:21:05,847 :: root :: WARNING :: No data for Mirage-F1BD; it will not be available
+2023-01-12 17:21:05,848 :: root :: WARNING :: No data for Mirage-F1DDA; it will not be available
+2023-01-12 17:21:05,853 :: root :: WARNING :: No data for Yak-52; it will not be available
+2023-01-12 17:21:05,858 :: root :: WARNING :: B-17G does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,863 :: root :: WARNING :: Ju-88A4 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,864 :: root :: WARNING :: No data for C-47; it will not be available
+2023-01-12 17:21:05,864 :: root :: WARNING :: No data for TF-51D; it will not be available
+2023-01-12 17:21:05,866 :: root :: WARNING :: A-4E-C does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,867 :: root :: WARNING :: No data for VSN_F104C; it will not be available
+2023-01-12 17:21:05,876 :: root :: WARNING :: F-22A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,880 :: root :: WARNING :: JAS39Gripen does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,882 :: root :: WARNING :: JAS39Gripen_AG does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,884 :: root :: WARNING :: Bronco-OV-10A does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:05,886 :: root :: WARNING :: Su-57 does not specify a max_range. Defaulting to 150.0NM
+2023-01-12 17:21:06,678 :: root :: INFO :: Reading plugins list from resources\plugins\plugins.json
+2023-01-12 17:21:06,679 :: root :: INFO :: Loading plugin base from resources\plugins\base\plugin.json
+2023-01-12 17:21:06,680 :: root :: INFO :: Loading plugin ctld from resources\plugins\ctld\plugin.json
+2023-01-12 17:21:06,680 :: root :: INFO :: Loading plugin skynetiads from resources\plugins\skynetiads\plugin.json
+2023-01-12 17:21:06,681 :: root :: INFO :: Loading plugin ewrs from resources\plugins\ewrs\plugin.json
+2023-01-12 17:21:06,681 :: root :: INFO :: Loading plugin herculescargo from resources\plugins\herculescargo\plugin.json
+2023-01-12 17:21:06,682 :: root :: INFO :: Loading plugin splashdamage from resources\plugins\splashdamage\plugin.json
+2023-01-12 17:21:06,682 :: root :: INFO :: Loading plugin lotatc from resources\plugins\lotatc\plugin.json
+2023-01-12 17:21:06,725 :: root :: WARNING :: No data for Bunker; it will not be available
+2023-01-12 17:21:06,728 :: root :: WARNING :: No data for Sandbox; it will not be available
+2023-01-12 17:21:06,732 :: root :: WARNING :: No data for MLRS FDDM; it will not be available
+2023-01-12 17:21:06,733 :: root :: WARNING :: No data for Infantry AK ver2; it will not be available
+2023-01-12 17:21:06,733 :: root :: WARNING :: No data for Infantry AK ver3; it will not be available
+2023-01-12 17:21:06,752 :: root :: WARNING :: Patriot AMG has no class
+2023-01-12 17:21:06,789 :: root :: WARNING :: No data for house1arm; it will not be available
+2023-01-12 17:21:06,790 :: root :: WARNING :: No data for outpost_road; it will not be available
+2023-01-12 17:21:06,791 :: root :: WARNING :: No data for outpost; it will not be available
+2023-01-12 17:21:06,791 :: root :: WARNING :: No data for houseA_arm; it will not be available
+2023-01-12 17:21:06,791 :: root :: WARNING :: No data for TACAN_beacon; it will not be available
+2023-01-12 17:21:06,811 :: root :: WARNING :: No data for Ural-4320 APA-5D; it will not be available
+2023-01-12 17:21:06,811 :: root :: WARNING :: No data for ATMZ-5; it will not be available
+2023-01-12 17:21:06,812 :: root :: WARNING :: No data for ATZ-10; it will not be available
+2023-01-12 17:21:06,814 :: root :: WARNING :: No data for M978 HEMTT Tanker; it will not be available
+2023-01-12 17:21:06,815 :: root :: WARNING :: No data for HEMTT TFFT; it will not be available
+2023-01-12 17:21:06,815 :: root :: WARNING :: No data for IKARUS Bus; it will not be available
+2023-01-12 17:21:06,816 :: root :: WARNING :: No data for LAZ Bus; it will not be available
+2023-01-12 17:21:06,817 :: root :: WARNING :: No data for LiAZ Bus; it will not be available
+2023-01-12 17:21:06,817 :: root :: WARNING :: No data for Hummer; it will not be available
+2023-01-12 17:21:06,818 :: root :: WARNING :: No data for MAZ-6303; it will not be available
+2023-01-12 17:21:06,818 :: root :: WARNING :: No data for Predator GCS; it will not be available
+2023-01-12 17:21:06,819 :: root :: WARNING :: No data for Predator TrojanSpirit; it will not be available
+2023-01-12 17:21:06,819 :: root :: WARNING :: No data for Suidae; it will not be available
+2023-01-12 17:21:06,819 :: root :: WARNING :: No data for Tigr_233036; it will not be available
+2023-01-12 17:21:06,820 :: root :: WARNING :: No data for Trolley bus; it will not be available
+2023-01-12 17:21:06,821 :: root :: WARNING :: No data for Ural ATsP-6; it will not be available
+2023-01-12 17:21:06,821 :: root :: WARNING :: Ural-4320-31 has no class
+2023-01-12 17:21:06,822 :: root :: WARNING :: Ural-4320T has no class
+2023-01-12 17:21:06,823 :: root :: WARNING :: No data for Ural-375 PBU; it will not be available
+2023-01-12 17:21:06,824 :: root :: WARNING :: No data for VAZ Car; it will not be available
+2023-01-12 17:21:06,824 :: root :: WARNING :: No data for ZiL-131 APA-80; it will not be available
+2023-01-12 17:21:06,825 :: root :: WARNING :: No data for SKP-11; it will not be available
+2023-01-12 17:21:06,825 :: root :: WARNING :: No data for ZIL-131 KUNG; it will not be available
+2023-01-12 17:21:06,825 :: root :: WARNING :: No data for ZIL-4331; it will not be available
+2023-01-12 17:21:06,825 :: root :: WARNING :: No data for KrAZ6322; it will not be available
+2023-01-12 17:21:06,826 :: root :: WARNING :: No data for JTAC; it will not be available
+2023-01-12 17:21:06,826 :: root :: WARNING :: No data for Infantry Animated; it will not be available
+2023-01-12 17:21:06,826 :: root :: WARNING :: No data for Electric locomotive; it will not be available
+2023-01-12 17:21:06,827 :: root :: WARNING :: No data for Locomotive; it will not be available
+2023-01-12 17:21:06,827 :: root :: WARNING :: No data for Coach cargo; it will not be available
+2023-01-12 17:21:06,827 :: root :: WARNING :: No data for Coach cargo open; it will not be available
+2023-01-12 17:21:06,828 :: root :: WARNING :: No data for Coach a tank blue; it will not be available
+2023-01-12 17:21:06,828 :: root :: WARNING :: No data for Coach a tank yellow; it will not be available
+2023-01-12 17:21:06,828 :: root :: WARNING :: No data for Coach a passenger; it will not be available
+2023-01-12 17:21:06,828 :: root :: WARNING :: No data for Coach a platform; it will not be available
+2023-01-12 17:21:06,829 :: root :: WARNING :: No data for tacr2a; it will not be available
+2023-01-12 17:21:06,829 :: root :: WARNING :: No data for LARC-V; it will not be available
+2023-01-12 17:21:06,829 :: root :: WARNING :: No data for KS-19; it will not be available
+2023-01-12 17:21:06,830 :: root :: WARNING :: No data for SON_9; it will not be available
+2023-01-12 17:21:06,845 :: root :: WARNING :: No data for FPS-117 ECS; it will not be available
+2023-01-12 17:21:06,848 :: root :: WARNING :: No data for RD_75; it will not be available
+2023-01-12 17:21:06,855 :: root :: WARNING :: No data for generator_5i57; it will not be available
+2023-01-12 17:21:06,861 :: root :: WARNING :: No data for ATZ-5; it will not be available
+2023-01-12 17:21:06,862 :: root :: WARNING :: No data for AA8; it will not be available
+2023-01-12 17:21:06,862 :: root :: WARNING :: No data for TZ-22_KrAZ; it will not be available
+2023-01-12 17:21:06,862 :: root :: WARNING :: No data for ATZ-60_Maz; it will not be available
+2023-01-12 17:21:06,863 :: root :: WARNING :: No data for ZIL-135; it will not be available
+2023-01-12 17:21:06,863 :: root :: WARNING :: No data for S_75_ZIL; it will not be available
+2023-01-12 17:21:06,872 :: root :: WARNING :: No data for ES44AH; it will not be available
+2023-01-12 17:21:06,873 :: root :: WARNING :: No data for Boxcartrinity; it will not be available
+2023-01-12 17:21:06,873 :: root :: WARNING :: No data for Tankcartrinity; it will not be available
+2023-01-12 17:21:06,874 :: root :: WARNING :: No data for Wellcarnsc; it will not be available
+2023-01-12 17:21:06,899 :: root :: WARNING :: No data for HQ-7_LN_EO; it will not be available
+2023-01-12 17:21:06,901 :: root :: WARNING :: No data for TYPE-59; it will not be available
+2023-01-12 17:21:06,903 :: root :: WARNING :: Sd_Kfz_2 has no class
+2023-01-12 17:21:06,905 :: root :: WARNING :: No data for Horch_901_typ_40_kfz_21; it will not be available
+2023-01-12 17:21:06,917 :: root :: WARNING :: No data for Wespe124; it will not be available
+2023-01-12 17:21:06,929 :: root :: WARNING :: No data for fire_control; it will not be available
+2023-01-12 17:21:06,937 :: root :: WARNING :: No data for FuSe-65; it will not be available
+2023-01-12 17:21:06,937 :: root :: WARNING :: No data for Pak40; it will not be available
+2023-01-12 17:21:06,937 :: root :: WARNING :: No data for LeFH_18-40-105; it will not be available
+2023-01-12 17:21:06,950 :: root :: WARNING :: No data for Allies_Director; it will not be available
+2023-01-12 17:21:06,961 :: root :: WARNING :: No data for M2A1-105; it will not be available
+2023-01-12 17:21:06,966 :: root :: WARNING :: No data for DR_50Ton_Flat_Wagon; it will not be available
+2023-01-12 17:21:06,966 :: root :: WARNING :: No data for DRG_Class_86; it will not be available
+2023-01-12 17:21:06,966 :: root :: WARNING :: No data for German_covered_wagon_G10; it will not be available
+2023-01-12 17:21:06,967 :: root :: WARNING :: No data for German_tank_wagon; it will not be available
+2023-01-12 17:21:06,972 :: root :: WARNING :: VAB_50 has no class
+2023-01-12 17:21:06,973 :: root :: WARNING :: VIB_VBR has no class
+2023-01-12 17:21:06,979 :: root :: WARNING :: VBAE has no class
+2023-01-12 17:21:06,980 :: root :: WARNING :: VBAE_MMP has no class
+2023-01-12 17:21:06,982 :: root :: WARNING :: No data for SHERIDAN; it will not be available
+2023-01-12 17:21:06,987 :: root :: WARNING :: Kamikaze has no class
+2023-01-12 17:21:06,987 :: root :: WARNING :: No data for FieldHL; it will not be available
+2023-01-12 17:21:06,988 :: root :: WARNING :: No data for HARRIERH; it will not be available
+2023-01-12 17:21:06,988 :: root :: WARNING :: No data for SmokeD1; it will not be available
+2023-01-12 17:21:06,988 :: root :: WARNING :: No data for SmokeD3; it will not be available
+2023-01-12 17:21:06,989 :: root :: WARNING :: TRM2000 has no class
+2023-01-12 17:21:06,990 :: root :: WARNING :: TRM2000_Citerne has no class
+2023-01-12 17:21:06,992 :: root :: WARNING :: VABH has no class
+2023-01-12 17:21:06,993 :: root :: WARNING :: VAB_RADIO has no class
+2023-01-12 17:21:06,994 :: root :: WARNING :: VBL-Radio has no class
+2023-01-12 17:21:06,995 :: root :: WARNING :: Tracma has no class
+2023-01-12 17:21:06,995 :: root :: WARNING :: No data for SMOKESAM; it will not be available
+2023-01-12 17:21:06,998 :: root :: WARNING :: No data for Leclerc_XXI_Desert; it will not be available
+2023-01-12 17:21:07,003 :: root :: WARNING :: No data for T62; it will not be available
+2023-01-12 17:21:07,004 :: root :: WARNING :: No data for T64BV; it will not be available
+2023-01-12 17:21:07,004 :: root :: WARNING :: No data for T72M; it will not be available
+2023-01-12 17:21:07,004 :: root :: WARNING :: No data for KORNET; it will not be available
+2023-01-12 17:21:07,006 :: root :: WARNING :: M120 has no class
+2023-01-12 17:21:07,007 :: root :: WARNING :: VAB_MORTIER has no class
+2023-01-12 17:21:07,036 :: root :: WARNING :: No data for 34Ya6E Gazetchik E decoy; it will not be available
+2023-01-12 17:21:07,037 :: root :: WARNING :: No data for speedboat; it will not be available
+2023-01-12 17:21:07,037 :: root :: WARNING :: No data for VINSON; it will not be available
+2023-01-12 17:21:07,042 :: root :: WARNING :: No data for PIOTR; it will not be available
+2023-01-12 17:21:07,043 :: root :: WARNING :: No data for ELNYA; it will not be available
+2023-01-12 17:21:07,044 :: root :: WARNING :: No data for Dry-cargo ship-2; it will not be available
+2023-01-12 17:21:07,044 :: root :: WARNING :: No data for Dry-cargo ship-1; it will not be available
+2023-01-12 17:21:07,044 :: root :: WARNING :: No data for ZWEZDNY; it will not be available
+2023-01-12 17:21:07,045 :: root :: WARNING :: No data for IMPROVED_KILO; it will not be available
+2023-01-12 17:21:07,045 :: root :: WARNING :: No data for SOM; it will not be available
+2023-01-12 17:21:07,046 :: root :: WARNING :: No data for CV_1143_5; it will not be available
+2023-01-12 17:21:07,047 :: root :: WARNING :: No data for HarborTug; it will not be available
+2023-01-12 17:21:07,049 :: root :: WARNING :: No data for leander-gun-condell; it will not be available
+2023-01-12 17:21:07,050 :: root :: WARNING :: No data for leander-gun-lynch; it will not be available
+2023-01-12 17:21:07,050 :: root :: WARNING :: No data for Ship_Tilde_Supply; it will not be available
+2023-01-12 17:21:07,051 :: root :: WARNING :: No data for santafe; it will not be available
+2023-01-12 17:21:07,051 :: root :: WARNING :: No data for HandyWind; it will not be available
+2023-01-12 17:21:07,051 :: root :: WARNING :: No data for Seawise_Giant; it will not be available
+2023-01-12 17:21:07,052 :: root :: WARNING :: No data for CVN_71; it will not be available
+2023-01-12 17:21:07,052 :: root :: WARNING :: No data for CVN_72; it will not be available
+2023-01-12 17:21:07,053 :: root :: WARNING :: No data for CVN_73; it will not be available
+2023-01-12 17:21:07,054 :: root :: WARNING :: No data for CVN_75; it will not be available
+2023-01-12 17:21:07,057 :: root :: WARNING :: No data for Type_093; it will not be available
+2023-01-12 17:21:07,060 :: root :: WARNING :: No data for Higgins_boat; it will not be available
+2023-01-12 17:21:08,146 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:21:08,155 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:21:08,155 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:21:08,158 :: root :: ERROR :: Could not find group for BAI mission 0213 | STURGEON (Carrier)
+2023-01-12 17:21:08,159 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:21:08,163 :: root :: INFO :: Generating flight: AV-8B Harrier II Night Attack
+2023-01-12 17:21:08,165 :: root :: INFO :: Generating flight: Su-25T Frogfoot
+2023-01-12 17:21:08,174 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:21:08,180 :: root :: INFO :: Generating flight: E-3A
+2023-01-12 17:21:08,183 :: root :: INFO :: Generating flight: MiG-29S Fulcrum-C
+2023-01-12 17:21:08,193 :: root :: INFO :: Generating flight: F/A-18C Hornet (Lot 20)
+2023-01-12 17:21:08,196 :: root :: INFO :: Generating flight: JF-17 Thunder
+2023-01-12 17:21:08,198 :: root :: INFO :: Generating flight: A-50
+2023-01-12 17:21:08,201 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:21:08,201 :: root :: DEBUG :: A-50 max_speed * 0.7 is Speed(speed_in_kph=595.0)
+2023-01-12 17:21:08,202 :: root :: INFO :: Generating flight: IL-78M
+2023-01-12 17:21:08,204 :: root :: INFO :: Generating flight: Su-33 Flanker-D
+2023-01-12 17:21:08,214 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,220 :: root :: INFO :: Generating flight: L-39ZA Albatros
+2023-01-12 17:21:08,224 :: root :: DEBUG :: L-39ZA Albatros max_speed * 0.7 is Speed(speed_in_kph=534.24)
+2023-01-12 17:21:08,225 :: root :: INFO :: Generating flight: Su-33 Flanker-D
+2023-01-12 17:21:08,228 :: root :: INFO :: Generating flight: Su-33 Flanker-D
+2023-01-12 17:21:08,231 :: root :: INFO :: Generating flight: Su-24M Fencer-D
+2023-01-12 17:21:08,236 :: root :: ERROR :: Pylon 6 cannot equip S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)
+2023-01-12 17:21:08,236 :: root :: ERROR :: Pylon 3 cannot equip S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)
+2023-01-12 17:21:08,237 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,239 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,247 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,250 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,253 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,255 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,259 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,261 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,265 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,268 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,271 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,273 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,277 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,279 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,284 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,286 :: root :: INFO :: Generating flight: Su-24M Fencer-D
+2023-01-12 17:21:08,288 :: root :: ERROR :: Pylon 6 cannot equip S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)
+2023-01-12 17:21:08,288 :: root :: ERROR :: Pylon 3 cannot equip S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)
+2023-01-12 17:21:08,289 :: root :: INFO :: Generating flight: Su-24M Fencer-D
+2023-01-12 17:21:08,292 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,359 :: root :: INFO :: Generating flight: Su-24M Fencer-D
+2023-01-12 17:21:08,361 :: root :: ERROR :: Pylon 6 cannot equip S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)
+2023-01-12 17:21:08,361 :: root :: ERROR :: Pylon 3 cannot equip S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)
+2023-01-12 17:21:08,363 :: root :: INFO :: Generating flight: Su-24M Fencer-D
+2023-01-12 17:21:08,366 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,368 :: root :: INFO :: Generating flight: Su-24M Fencer-D
+2023-01-12 17:21:08,370 :: root :: ERROR :: Pylon 6 cannot equip S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)
+2023-01-12 17:21:08,370 :: root :: ERROR :: Pylon 3 cannot equip S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)
+2023-01-12 17:21:08,372 :: root :: INFO :: Generating flight: Su-24M Fencer-D
+2023-01-12 17:21:08,375 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,378 :: root :: INFO :: Generating flight: Su-24M Fencer-D
+2023-01-12 17:21:08,379 :: root :: WARNING :: No room on runway or parking slots. Starting from the air.
+2023-01-12 17:21:08,380 :: root :: ERROR :: Pylon 6 cannot equip S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)
+2023-01-12 17:21:08,381 :: root :: ERROR :: Pylon 3 cannot equip S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)
+2023-01-12 17:21:08,382 :: root :: INFO :: Generating flight: Su-24M Fencer-D
+2023-01-12 17:21:08,383 :: root :: WARNING :: No room on runway or parking slots. Starting from the air.
+2023-01-12 17:21:08,386 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,386 :: root :: WARNING :: No room on runway or parking slots. Starting from the air.
+2023-01-12 17:21:08,389 :: root :: INFO :: Generating flight: Su-24M Fencer-D
+2023-01-12 17:21:08,389 :: root :: WARNING :: No room on runway or parking slots. Starting from the air.
+2023-01-12 17:21:08,392 :: root :: ERROR :: Pylon 6 cannot equip S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)
+2023-01-12 17:21:08,392 :: root :: ERROR :: Pylon 3 cannot equip S-24B - 240mm UnGd Rkt, 235kg, HE/Frag, (Low Smk)
+2023-01-12 17:21:08,394 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,395 :: root :: ERROR :: Pylon 3 cannot equip Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr
+2023-01-12 17:21:08,396 :: root :: ERROR :: Pylon 4 cannot equip Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr
+2023-01-12 17:21:08,396 :: root :: ERROR :: Pylon 9 cannot equip Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr
+2023-01-12 17:21:08,397 :: root :: ERROR :: Pylon 10 cannot equip Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr
+2023-01-12 17:21:08,398 :: root :: INFO :: Generating flight: MiG-31 Foxhound
+2023-01-12 17:21:08,398 :: root :: WARNING :: No room on runway or parking slots. Starting from the air.
+2023-01-12 17:21:08,401 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,403 :: root :: ERROR :: Pylon 3 cannot equip Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided
+2023-01-12 17:21:08,404 :: root :: ERROR :: Pylon 4 cannot equip Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided
+2023-01-12 17:21:08,404 :: root :: ERROR :: Pylon 9 cannot equip Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided
+2023-01-12 17:21:08,405 :: root :: ERROR :: Pylon 10 cannot equip Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided
+2023-01-12 17:21:08,406 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,408 :: root :: ERROR :: Pylon 3 cannot equip Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr
+2023-01-12 17:21:08,409 :: root :: ERROR :: Pylon 4 cannot equip Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr
+2023-01-12 17:21:08,410 :: root :: ERROR :: Pylon 9 cannot equip Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr
+2023-01-12 17:21:08,410 :: root :: ERROR :: Pylon 10 cannot equip Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr
+2023-01-12 17:21:08,412 :: root :: INFO :: Generating flight: Su-33 Flanker-D
+2023-01-12 17:21:08,416 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,419 :: root :: INFO :: Generating flight: Su-33 Flanker-D
+2023-01-12 17:21:08,423 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,426 :: root :: ERROR :: Pylon 3 cannot equip Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided
+2023-01-12 17:21:08,426 :: root :: ERROR :: Pylon 4 cannot equip Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided
+2023-01-12 17:21:08,427 :: root :: ERROR :: Pylon 9 cannot equip Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided
+2023-01-12 17:21:08,427 :: root :: ERROR :: Pylon 10 cannot equip Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided
+2023-01-12 17:21:08,429 :: root :: INFO :: Generating flight: Su-33 Flanker-D
+2023-01-12 17:21:08,432 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,436 :: root :: INFO :: Generating flight: Su-33 Flanker-D
+2023-01-12 17:21:08,439 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,441 :: root :: ERROR :: Pylon 3 cannot equip Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided
+2023-01-12 17:21:08,441 :: root :: ERROR :: Pylon 4 cannot equip Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided
+2023-01-12 17:21:08,442 :: root :: ERROR :: Pylon 9 cannot equip Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided
+2023-01-12 17:21:08,442 :: root :: ERROR :: Pylon 10 cannot equip Kh-25MR (AS-10 Karen) - 300kg, ASM, RC Guided
+2023-01-12 17:21:08,444 :: root :: INFO :: Generating flight: Su-34 Fullback
+2023-01-12 17:21:08,446 :: root :: ERROR :: Pylon 3 cannot equip Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr
+2023-01-12 17:21:08,446 :: root :: ERROR :: Pylon 4 cannot equip Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr
+2023-01-12 17:21:08,447 :: root :: ERROR :: Pylon 9 cannot equip Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr
+2023-01-12 17:21:08,447 :: root :: ERROR :: Pylon 10 cannot equip Kh-25MPU (Updated AS-12 Kegler) - 320kg, ARM, IN & Pas Rdr
+2023-01-12 17:21:08,448 :: root :: INFO :: Generating flight: Su-33 Flanker-D
+2023-01-12 17:21:09,658 :: root :: DEBUG :: Mission generation took 0:00:01.721430
+2023-01-12 17:23:01,041 :: root :: INFO :: QT App terminated with status code : 0
+2023-01-12 17:23:01,044 :: root :: INFO :: Attempt to restore original mission scripting file
+2023-01-12 17:23:01,046 :: root :: INFO :: QT process exited with code : 0
+2023-01-12 17:23:01,096 :: uvicorn.error :: INFO :: Shutting down
+2023-01-12 17:23:01,197 :: uvicorn.error :: INFO :: Waiting for application shutdown.
+2023-01-12 17:23:01,197 :: uvicorn.error :: INFO :: Application shutdown complete.
+2023-01-12 17:23:01,197 :: uvicorn.error :: INFO :: Finished server process [5436]
