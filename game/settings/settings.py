@@ -225,8 +225,8 @@ class Settings:
         CAMPAIGN_MANAGEMENT_PAGE,
         PILOTS_AND_SQUADRONS_SECTION,
         default=12,
-        min=12,
-        max=72,
+        min=1,
+        max=20,
         detail=(
             "Sets the maximum number of pilots a squadron may have active. "
             "Changing this value will not have an immediate effect, but will alter "
@@ -378,7 +378,7 @@ class Settings:
         page=MISSION_GENERATOR_PAGE,
         section=GAMEPLAY_SECTION,
         choices={v.value: v for v in StartType},
-        default=StartType.COLD,
+        default=StartType.RUNWAY,
         detail=(
             "Warning: Options other than Cold will significantly reduce the number of "
             "targets available for OCA/Aircraft missions, and OCA/Aircraft flights "
@@ -432,19 +432,19 @@ class Settings:
         "Convoys drive the full distance between control points",
         page=MISSION_GENERATOR_PAGE,
         section=PERFORMANCE_SECTION,
-        default=True,
+        default=False,
     )
     perf_infantry: bool = boolean_option(
         "Generate infantry squads alongside vehicles",
         page=MISSION_GENERATOR_PAGE,
         section=PERFORMANCE_SECTION,
-        default=True,
+        default=False,
     )
     perf_destroyed_units: bool = boolean_option(
         "Generate carcasses for units destroyed in previous turns",
         page=MISSION_GENERATOR_PAGE,
         section=PERFORMANCE_SECTION,
-        default=True,
+        default=False,
     )
     # Performance culling
     perf_culling: bool = boolean_option(

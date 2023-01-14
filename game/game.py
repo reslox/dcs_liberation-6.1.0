@@ -525,14 +525,14 @@ class Game:
 
         packages = itertools.chain(self.blue.ato.packages, self.red.ato.packages)
         for package in packages:
-            if package.primary_task is (FlightType.AEWC or FlightType.is_air_to_air):
+            if package.primary_task.is_air_to_ground:
                 # BARCAPs will be planned at most locations on smaller theaters,
                 # rendering culling fairly useless. BARCAP packages don't really
                 # need the ground detail since they're defensive. SAMs nearby
                 # are only interesting if there are enemies in the area, and if
                 # there are they won't be culled because of the enemy's mission.
-                continue
-            zones.append(package.target.position)
+                zones.append(package.target.position)
+            continue
 
         self.__culling_zones = zones
         events.update_unculled_zones(zones)
