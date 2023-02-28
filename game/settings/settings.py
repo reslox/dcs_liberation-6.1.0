@@ -428,6 +428,21 @@ class Settings:
         section=PERFORMANCE_SECTION,
         default=True,
     )
+    perf_park_limits: bool = boolean_option(
+        "Max parking slots limiter ",
+        page=MISSION_GENERATOR_PAGE,
+        section=PERFORMANCE_SECTION,
+        default=False,
+    )
+    perf_parking_amount: int = bounded_int_option(
+        "Max amount of aircraft per airfield",
+        page=MISSION_GENERATOR_PAGE,
+        section=PERFORMANCE_SECTION,
+        default=30,
+        min=1,
+        max=30,
+    )
+
     convoys_travel_full_distance: bool = boolean_option(
         "Convoys drive the full distance between control points",
         page=MISSION_GENERATOR_PAGE,

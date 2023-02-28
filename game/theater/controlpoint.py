@@ -76,6 +76,7 @@ from ..dcs.aircrafttype import AircraftType
 from ..dcs.groundunittype import GroundUnitType
 from ..utils import nautical_miles
 from ..weather import Conditions
+from game.settings import settings
 
 if TYPE_CHECKING:
     from game import Game
@@ -1111,8 +1112,15 @@ class Airfield(ControlPoint):
         Return total aircraft parking slots available
         Note : additional helipads shouldn't contribute to this score as it could allow airfield
         to buy more planes than what they are able to host
-        """
+
+         ## add an option to limit maximum amount of aircraft as a perfromance setting##
         return len(self.airport.parking_slots)
+        """
+        if settings.Settings.perf_park_limits is True:
+            return min(len(self.airport.parking_slots),settings.Settings.perf_parking_amount)
+        else:
+            return len(self.airport.parking_slots)
+
 
     @property
     def heading(self) -> Heading:

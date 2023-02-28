@@ -1,0 +1,6 @@
+
+logs/liberation.log
+state.json
+.idea/vcs.xml
+game/__pycache__/game.cpython-310.pyc
+game/commander/__pycache__/theaterstate.cpython-310.pyc
